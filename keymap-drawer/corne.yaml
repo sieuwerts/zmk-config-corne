@@ -193,7 +193,7 @@ layers:
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RCTRL}
+  - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT WIN}
   - ''''
