@@ -16,6 +16,16 @@
             bindings = <&tog 2>;
             key-positions = <17 18>;
         };
+
+        gaming {
+            bindings = <&tog 4>;
+            key-positions = <29 30>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <5 6>;
+        };
     };
 
     behaviors {
@@ -52,16 +62,16 @@
 &kp TAB        &kp Q            &kp W            &kp E         &kp R              &kp T      &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp MINUS
 &kp BACKSLASH  &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm LCTRL D  &hrm LEFT_SHIFT F  &kp G      &kp H          &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm RIGHT_ALT L  &hrm LEFT_WIN SEMICOLON  &kp SQT
 &kp GRAVE      &kp Z            &kp X            &kp C         &kp V              &kp B      &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp EQUAL
-                                                 &none         &hml 1 ESCAPE      &kp RET    &kp BACKSPACE  &hml 1 SPACE        &none
+                                                 &mo 3         &hml 1 ESCAPE      &kp RET    &kp BACKSPACE  &hml 1 SPACE        &mo 3
             >;
         };
 
         symbols {
             bindings = <
-&none   &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &none           &none         &kp PERCENT            &kp CARET        &kp AMPS           &kp ASTRK     &trans
-&trans  &kp LT           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &none           &none         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GT        &trans
-&none   &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0  &trans
-                                           &trans          &trans                &trans          &trans        &trans                 &trans
+&none       &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &none           &none         &kp PERCENT            &kp CARET        &kp AMPS           &kp ASTRK     &trans
+&kp COMMA   &kp LT           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &none           &none         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GT        &trans
+&kp PERIOD  &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0  &trans
+                                               &trans          &trans                &trans          &trans        &trans                 &trans
             >;
         };
 
@@ -82,10 +92,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none     &kp UP_ARROW  &none      &none  &none
+&none       &none              &none            &none         &none         &none           &none   &kp LEFT  &kp DOWN      &kp RIGHT  &none  &none
+&none       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &kp C_MUTE    &none           &none   &none     &none         &none      &none  &none
+                                                &trans        &trans        &trans          &trans  &trans    &trans
+            >;
+        };
+
+        gaming {
+            bindings = <
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U      &kp I      &kp O    &kp P     &kp MINUS
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
+                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &kp SPACE  &kp ESC
             >;
         };
     };
