@@ -46,6 +46,33 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        tap_swe_ao: tap_swe_ao {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_SWE_AO";
+            #binding-cells = <0>;
+            bindings = <&kp LA(W)>, <&kp MINUS>;
+
+            tapping-term-ms = <200>;
+        };
+
+        tap_swe_ae: tap_swe_ae {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_SWE_AE";
+            #binding-cells = <0>;
+            bindings = <&kp LA(A)>, <&kp SINGLE_QUOTE>;
+
+            tapping-term-ms = <200>;
+        };
+
+        tap_swe_o: tap_swe_o {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_SWE_O";
+            #binding-cells = <0>;
+            bindings = <&hrm RIGHT_WIN LA(O)>, <&kp SEMICOLON>;
+
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -77,9 +104,9 @@
 
         swedish {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans     &kp LA(W)
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LA(O)  &kp LA(A)
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &tap_swe_ao
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &tap_swe_o  &tap_swe_ae
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
