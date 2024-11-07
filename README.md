@@ -2,7 +2,7 @@
 
 This repository contains the configuration of my wireless 6-column corne
 keyboard. I'm using [ZMK](https://zmk.dev/) together with nickcoutsos
-[keymap-editor](https://github.com/nickcoutsos/keymap-editor).
+[keymap-editor](https://nickcoutsos.github.io/keymap-editor/).
 
 ## Build configuration
 
@@ -18,3 +18,14 @@ keyboard. I'm using [ZMK](https://zmk.dev/) together with nickcoutsos
 | Switches      | Ambient Silent    | Twilight                    |     42 pcs | splitkb.com     |
 | Battery       | 110mAh Li-Po      | 3.7V                        |      2 pcs | aliexpress.com  |
 | Firmware      | ZMK               | N/A                         |        N/A | N/A             |
+
+## Keymap
+
+Here is the current keymap, this image is automatically generated using
+[keymap-drawer](https://github.com/caksoylar/keymap-drawer). See the
+[workflow](./.github/workflows/draw-keymaps.yml) for more details. It will
+generate the image everytime there are changes to the `config/corne.keymap`
+file and amend to the triggering commit.
+This till require a `git pull --rebase` locally to avoid diverging branches.
+
+![keymap](./keymap-drawer/corne.svg)
