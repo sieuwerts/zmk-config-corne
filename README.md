@@ -1,10 +1,10 @@
 # Corne keyboard firmware configuration
 
-This repository contains the configuration of my wireless 6-column corne
-keyboard. I'm using [ZMK](https://zmk.dev/) together with nickcoutsos
+This repository contains my configuration of the wireless 6-column corne
+keyboard using [ZMK](https://zmk.dev/) together with nickcoutsos
 [keymap-editor](https://nickcoutsos.github.io/keymap-editor/).
 
-## Build configuration
+## Hardware
 
 | **Component** | **Type**          | **Model**                   | **Amount** | **Vendor**      |
 |---------------|-------------------|-----------------------------|-----------:|-----------------|
@@ -21,11 +21,11 @@ keyboard. I'm using [ZMK](https://zmk.dev/) together with nickcoutsos
 
 ## Keymap
 
-Here is the current keymap, this image is automatically generated using
+This is the current keymap, this render is automatically generated using
 [keymap-drawer](https://github.com/caksoylar/keymap-drawer). See the
 [workflow](./.github/workflows/draw-keymaps.yml) for more details. It will
-generate the image everytime there are changes to the `config/corne.keymap`
-file and amend to the triggering commit.
-This till require a `git pull --rebase` locally to avoid diverging branches.
+generate everytime there are changes to the `config/corne.keymap` file and
+amend to the triggering commit. This might require a `git pull --rebase`
+locally to avoid diverging branches.
 
 ![keymap](./keymap-drawer/corne.svg)
