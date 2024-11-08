@@ -383,9 +383,14 @@ parse_config:
     C_BRI_DN: $$mdi:brightness-7$$
 
   zmk_combos:
-    swedish:
+    combo_swedish:
       align: top
-    caps_lock:
+    combo_caps_lock:
       align: top
-    gaming:
+    combo_gaming:
       align: bottom
+    combo_bt_clear:
+      align: top
+      key:
+        shifted: $$mdi:bluetooth-connect$$
+        hold: "clear"
