@@ -1,3 +1,5 @@
+---
+# inspiration: https://github.com/minusfive/zmk-config
 draw_config:
   # key_w: 72.0
   # key_h: 56.0
@@ -176,6 +178,19 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    # Behaviours
+    "&tap_swe_ao":
+      tap: å
+      hold: "-"
+
+    "&tap_swe_ae":
+      tap: ä
+      hold: "'"
+
+    "&tap_swe_o":
+      tap: ö
+      hold: ";"
+
   # ZMK
   zmk_keycode_map:
     EXCLAMATION: "!"
@@ -337,7 +352,7 @@ parse_config:
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
     # Locks
-    CAPS_LOCK: $$mdi:apple-keyboard-caps$$
+    CAPSLOCK: $$mdi:apple-keyboard-caps$$
     CAPS: $$mdi:apple-keyboard-caps$$
     # Sound
     C_MUTE: $$mdi:volume-off$$
@@ -368,67 +383,9 @@ parse_config:
     C_BRI_DN: $$mdi:brightness-7$$
 
   zmk_combos:
-    combo_lm_2_shift:
-      key:
-        shifted: L2
-        hold: $$mdi:apple-keyboard-shift$$
-    combo_to_2:
+    swedish:
       align: top
-    combo_to_3:
+    caps_lock:
+      align: top
+    gaming:
       align: bottom
-      offset: 0.5
-    combo_bt_clear:
-      align: top
-    # combo_ampersand:
-    #   align: left
-    #   offset: -0.1
-    # combo_star:
-    #   align: left
-    #   offset: -0.1
-    combo_minus:
-      key:
-        shifted: "_"
-        hold: "-"
-    combo_equal:
-      key:
-        shifted: "+"
-        hold: "="
-    combo_backslash:
-      align: right
-      offset: -0.1
-      key:
-        shifted: "|"
-        hold: \
-    combo_grave:
-      key:
-        shifted: "~"
-        hold: "`"
-    combo_semi:
-      align: right
-      offset: -0.1
-      key:
-        shifted: ":"
-        hold: ";"
-    combo_lbkt:
-      # align: right
-      # offset: -0.1
-      key:
-        shifted: "{"
-        hold: "["
-    combo_rbkt:
-      # align: right
-      # offset: -0.1
-      key:
-        shifted: "}"
-        hold: "]"
-    # combo_mute:
-    #   align: top
-    #   offset: 0.2
-    combo_volume:
-      key: $$mdi:volume-high$$
-    combo_next_prev:
-      key:
-        shifted: $$mdi:skip-previous$$
-        hold: $$mdi:skip-next$$
-    combo_brightness:
-      key: $$mdi:brightness-7$$

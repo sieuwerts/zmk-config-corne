@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&tap_swe_ao'
+  - {t: å, h: '-'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,8 +109,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&tap_swe_o'
-  - '&tap_swe_ae'
+  - {t: ö, h: ;}
+  - {t: ä, h: ''''}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -218,7 +218,10 @@ layers:
 combos:
 - p: [7, 8, 9]
   k: {t: swedish, h: toggle}
+  a: top
 - p: [31, 32, 33]
   k: {t: gaming, h: toggle}
+  a: bottom
 - p: [2, 3, 4]
-  k: CAPSLOCK
+  k: $$mdi:apple-keyboard-caps$$
+  a: top
