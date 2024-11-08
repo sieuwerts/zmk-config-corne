@@ -385,16 +385,16 @@ parse_config:
   zmk_combos:
     combo_swedish:
       align: top
-      offset: -0.5
+      offset: 0.2
     combo_caps_lock:
       align: top
-      offset: -0.5
+      offset: 0.2
     combo_gaming:
       align: bottom
-      offset: 0.5
+      offset: 0.2
     combo_bt_clear:
       align: top
-      offset: -0.5
+      offset: 0.2
       key:
         shifted: $$mdi:bluetooth-connect$$
         hold: "clear"
