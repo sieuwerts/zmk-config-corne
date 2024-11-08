@@ -14,39 +14,21 @@
 
         swedish {
             bindings = <&tog 2>;
-            key-positions = <17 18>;
+            key-positions = <7 8 9>;
         };
 
         gaming {
             bindings = <&tog 4>;
-            key-positions = <29 30>;
+            key-positions = <31 32 33>;
         };
 
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <5 6>;
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <2 3 4>;
         };
     };
 
     behaviors {
-        hrm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        hml: hold_momentary_layer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_MOMENTARY_LAYER";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
         tap_swe_ao: tap_swe_ao {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_AO";
@@ -69,7 +51,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_O";
             #binding-cells = <0>;
-            bindings = <&hrm RIGHT_WIN LA(O)>, <&kp SEMICOLON>;
+            bindings = <&none>, <&kp SEMICOLON>;
 
             tapping-term-ms = <200>;
         };
@@ -80,10 +62,10 @@
 
         default {
             bindings = <
-&kp TAB        &kp Q            &kp W            &kp E         &kp R              &kp T      &kp Y          &kp U               &kp I                 &kp O             &kp P                    &kp MINUS
-&kp BACKSLASH  &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm LCTRL D  &hrm LEFT_SHIFT F  &kp G      &kp H          &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm RIGHT_ALT L  &hrm LEFT_WIN SEMICOLON  &kp SQT
-&kp GRAVE      &kp Z            &kp X            &kp C         &kp V              &kp B      &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &kp EQUAL
-                                                 &mo 3         &hml 1 ESCAPE      &kp RET    &kp BACKSPACE  &hml 1 SPACE        &mo 3
+&kp TAB        &kp Q           &kp W           &kp E        &kp R             &kp T      &kp Y          &kp U              &kp I                &kp O            &kp P                   &kp MINUS
+&kp BACKSLASH  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G      &kp H          &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt LEFT_WIN SEMICOLON  &kp SQT
+&kp GRAVE      &kp Z           &kp X           &kp C        &kp V             &kp B      &kp N          &kp M              &kp COMMA            &kp DOT          &kp FSLH                &kp EQUAL
+                                               &mo 3        &lt 1 ESCAPE      &kp RET    &kp BACKSPACE  &lt 1 SPACE        &mo 3
             >;
         };
 
@@ -116,10 +98,10 @@
 
         gaming {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U               &kp I                 &kp O             &kp P                     &kp MINUS
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMICOLON  &kp APOS
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M               &kp COMMA             &kp DOT           &kp FSLH                  &kp EQUAL
-                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 1               &mo 3
+&kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U              &kp I                &kp O            &kp P                    &kp MINUS
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &mt RIGHT_WIN SEMICOLON  &kp APOS
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M              &kp COMMA            &kp DOT          &kp FSLH                 &kp EQUAL
+                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 1              &mo 3
             >;
         };
     };
