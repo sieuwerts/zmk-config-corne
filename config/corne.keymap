@@ -74,7 +74,7 @@
 &kp TAB        &kp Q       &kp W       &kp E        &kp R         &kp T        &kp Y          &kp U         &kp I        &kp O       &kp P               &kp MINUS
 &kp BACKSLASH  &mt LCMD A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G        &kp H          &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &mt RCMD SEMICOLON  &kp SQT
 &kp GRAVE      &kp Z       &kp X       &kp C        &kp V         &kp B        &kp N          &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp EQUAL
-                                       &mo 4        &lt 3 ESC     &kp ENTER    &kp BACKSPACE  &lt 3 SPACE   &mo 4
+                                       &mo 5        &lt 3 ESC     &kp ENTER    &kp BACKSPACE  &lt 3 SPACE   &mo 4
             >;
         };
 
@@ -98,10 +98,10 @@
 
         symbols {
             bindings = <
-&none       &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &none           &none         &kp PERCENT            &kp CARET        &kp AMPS           &kp ASTRK     &trans
-&kp COMMA   &kp LT           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &none           &none         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GT        &trans
-&kp PERIOD  &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0  &trans
-                                               &trans          &trans                &trans          &trans        &trans                 &trans
+&none  &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &none     &none   &kp PERCENT            &kp CARET        &kp AMPS           &kp ASTRK  &trans
+&none  &kp LT           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &none     &none   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GT     &trans
+&none  &kp N1           &kp N2            &kp N3          &kp N4                &kp N5    &kp N6  &kp N7                 &kp N8           &kp N9             &kp N0     &trans
+                                          &trans          &trans                &trans    &trans  &trans                 &trans
             >;
         };
 
@@ -111,6 +111,15 @@
 &none  &none         &none         &none         &none         &none           &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
 &none  &kp C_VOL_DN  &kp C_VOL_UP  &none         &kp C_MUTE    &none           &none   &none     &none     &none      &none  &none
                                    &trans        &trans        &trans          &trans  &trans    &trans
+            >;
+        };
+
+        numpad {
+            bindings = <
+&none  &none  &none  &none   &none   &none     &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp COMMA   &kp MINUS
+&none  &none  &none  &none   &none   &none     &kp STAR     &kp N4  &kp N5  &kp N6  &kp PERIOD  &kp PLUS
+&none  &none  &none  &none   &none   &none     &kp UNDER    &kp N1  &kp N2  &kp N3  &kp SLASH   &kp EQUAL
+                     &trans  &trans  &trans    &trans       &trans  &kp N0
             >;
         };
     };
