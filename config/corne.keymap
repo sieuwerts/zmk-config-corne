@@ -12,25 +12,25 @@
     combos {
         compatible = "zmk,combos";
 
-        swedish {
+        combo_swedish {
             bindings = <&tog 1>;
             key-positions = <7 8 9>;
             layers = <0 1>;
         };
 
-        gaming {
+        combo_gaming {
             bindings = <&tog 2>;
             key-positions = <31 32 33>;
             layers = <0 2>;
         };
 
-        caps_lock {
+        combo_caps_lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <2 3 4>;
             layers = <0 1 2>;
         };
 
-        bt_clear {
+        combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <2 3 4 1>;
             layers = <4>;
