@@ -218,11 +218,11 @@ layers:
 combos:
 - p: [7, 8, 9]
   k: {t: swedish, h: toggle}
-  l: [default, swedish, gaming]
+  l: [default, swedish]
   a: top
 - p: [31, 32, 33]
   k: {t: gaming, h: toggle}
-  l: [default, swedish, gaming]
+  l: [default, gaming]
   a: bottom
 - p: [2, 3, 4]
   k: $$mdi:apple-keyboard-caps$$

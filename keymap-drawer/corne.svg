@@ -573,15 +573,6 @@ path.combo {
 </a><text x="644" y="8" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M644,176 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-4" class="combo"/>
-<path d="M644,176 l0,-17" class="combo"/>
-<path d="M644,176 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-4" class="combo"/>
-<rect rx="4" ry="4" x="630" y="162" width="28" height="26" class="combo"/>
-<a href="#gaming">
-<text x="644" y="176" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
-</a><text x="644" y="184" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
-</g>
-<g class="combo combopos-2">
 <path d="M196,0 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v11" class="combo"/>
 <path d="M196,0 l0,17" class="combo"/>
 <path d="M196,0 h50 a6.0,6.0 0 0 1 6.0,6.0 v11" class="combo"/>
@@ -774,15 +765,6 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 83%">system</tspan></text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M644,0 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v11" class="combo"/>
-<path d="M644,0 l0,17" class="combo"/>
-<path d="M644,0 h50 a6.0,6.0 0 0 1 6.0,6.0 v11" class="combo"/>
-<rect rx="4" ry="4" x="630" y="-14" width="28" height="26" class="combo"/>
-<a href="#swedish">
-<text x="644" y="0" class="combo tap layer-activator"><tspan style="font-size: 71%">swedish</tspan></text>
-</a><text x="644" y="8" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
-</g>
-<g class="combo combopos-1">
 <path d="M644,176 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-4" class="combo"/>
 <path d="M644,176 l0,-17" class="combo"/>
 <path d="M644,176 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-4" class="combo"/>
@@ -791,7 +773,7 @@ path.combo {
 <text x="644" y="176" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
 </a><text x="644" y="184" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-1">
 <path d="M196,0 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v11" class="combo"/>
 <path d="M196,0 l0,17" class="combo"/>
 <path d="M196,0 h50 a6.0,6.0 0 0 1 6.0,6.0 v11" class="combo"/>
