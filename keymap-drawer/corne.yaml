@@ -14,16 +14,16 @@ layers:
   - P
   - {t: '-', s: _}
   - {t: \, s: '|'}
-  - {t: A, h: LEFT WIN}
-  - {t: S, h: LEFT ALT}
+  - {t: A, h: LWIN}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: LEFT SHIFT}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LEFT WIN, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RWIN, s: ':'}
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
   - Z
@@ -38,8 +38,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - system
-  - {t: ESCAPE, h: symbols}
-  - RET
+  - {t: '$$mdi:keyboard-esc$$', h: symbols}
+  - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: symbols}
   - system
@@ -138,7 +138,7 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - UP ARROW
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -155,8 +155,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - VOLUME DOWN
-  - VOLUME UP
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -192,10 +192,10 @@ layers:
   - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT WIN, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RWIN, s: ':'}
   - .
   - $$mdi:apple-keyboard-control$$
   - Z
