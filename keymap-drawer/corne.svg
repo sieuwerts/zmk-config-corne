@@ -1,5 +1,8 @@
 <svg width="840" height="1457" viewBox="0 0 840 1457" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="mdi:apple-keyboard-command">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-command" viewBox="0 0 24 24"><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
+</svg>
 <svg id="mdi:apple-keyboard-control">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-control" viewBox="0 0 24 24"><path d="M19.78,11.78L18.36,13.19L12,6.83L5.64,13.19L4.22,11.78L12,4L19.78,11.78Z" /></svg>
 </svg>
@@ -222,7 +225,7 @@ path.combo {
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
-<text x="0" y="23" class="key hold">LWIN</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -265,7 +268,7 @@ path.combo {
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<text x="0" y="23" class="key hold">RWIN</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 <text x="0" y="-23" class="key shifted">:</text>
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
@@ -1070,7 +1073,7 @@ path.combo {
 <g transform="translate(756, 105)" class="key keypos-22">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<text x="0" y="23" class="key hold">RWIN</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 <text x="0" y="-23" class="key shifted">:</text>
 </g>
 <g transform="translate(812, 105)" class="key keypos-23">
