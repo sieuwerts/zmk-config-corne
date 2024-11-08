@@ -1,0 +1,434 @@
+draw_config:
+  # key_w: 72.0
+  # key_h: 56.0
+  # split_gap: 20.0
+  # combo_w: 40.0
+  # combo_h: 30.0
+  key_rx: 4.0
+  key_ry: 4.0
+  inner_pad_w: 1.0
+  inner_pad_h: 1.0
+  outer_pad_w: 0.0
+  outer_pad_h: 14.0
+  line_spacing: 1.0
+  arc_radius: 6.0
+  arc_scale: 1.0
+  append_colon_to_layer_header: false
+  small_pad: 4.0
+  svg_style: |
+    /* inherit to force styles through use tags*/
+    svg path {
+        fill: inherit;
+    }
+    /* font and background color specifications */
+    svg.keymap {
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        font-size: 14px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: #24292e;
+    }
+
+    /* default key styling */
+    rect.key {
+        fill: #f6f8fa;
+        stroke: #c9cccf;
+        stroke-width: 1;
+    }
+
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        /* fill: #fdd; */
+    }
+
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+        fill: #ddd;
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+        line-height: 1;
+    }
+
+    /* styling for layer labels */
+    text.label {
+        font-weight: bold;
+        text-anchor: start;
+        paint-order: stroke;
+        fill: #aaa;
+    }
+
+    /* styling for combo tap, and key hold/shifted label text */
+    text.combo, text.hold, text.shifted {
+        font-size: 12px;
+    }
+
+    text.hold {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+
+    text.shifted {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+
+    /* styling for hold/shifted label text in combo box */
+    text.combo.hold, text.combo.shifted {
+        font-size: 8px;
+    }
+
+    /* lighter symbol for transparent and none keys */
+    rect.trans,
+    rect.none {
+        fill: #e6ebf1;
+        opacity: 0.75;
+        stroke-dasharray: 2, 2;
+    }
+    text.trans,
+    text.none,
+    use.trans,
+    use.none {
+        fill: #7b7e81;
+        opacity: 0.5;
+    }
+
+    /* color accent for combo boxes */
+    rect.combo {
+        fill: #cdf;
+    }
+    /* styling for combo dendrons */
+    path.combo {
+        stroke-width: 1;
+        stroke: #7b7e81;
+        stroke-dasharray: 2, 2;
+        fill: none;
+        opacity: 0.75;
+    }
+
+    /* Start Tabler Icons Cleanup */
+    /* cannot use height/width with glyphs */
+    .icon-tabler > path {
+        fill: inherit;
+        stroke: inherit;
+    }
+    /* hide tabler's default box */
+    .icon-tabler > path[stroke="none"][fill="none"] {
+        visibility: collapse;
+    }
+    /* End Tabler Icons Cleanup */
+  shrink_wide_legends: 5
+  glyph_tap_size: 16
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+  # glyphs: {}
+  # glyph_urls:
+  #   tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
+  #   mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
+  #   mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
+  #   material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+  # use_local_cache: true
+
+parse_config:
+  # preprocess: true
+  # skip_binding_parsing: false
+  sticky_label: $$mdi:gesture-tap-hold$$
+  trans_legend:
+    tap: $$mdi:transfer$$
+    type: trans
+
+  raw_binding_map:
+    # Modifiers
+    "&caps_word": $$mdi:alpha-w-box$$
+
+    # Empty
+    "&none":
+      tap: $$mdi:minus-circle-outline$$
+      type: none
+
+    # Bluetooth
+    "&bt BT_SEL 0":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: 1
+    "&bt BT_SEL 1":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: 2
+    "&bt BT_SEL 2":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: 3
+    "&bt BT_SEL 3":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: 4
+    "&bt BT_SEL 4":
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: 5
+
+    # Reset
+    "&sys_reset":
+      tap: $$mdi:backup-restore$$
+    "&bootloader":
+      tap: $$mdi:progress-download$$
+
+  # ZMK
+  zmk_keycode_map:
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
+    DOLLAR: $
+    DLLR: $
+    PERCENT: "%"
+    PRCNT: "%"
+    CARET: ^
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL:
+      t: "="
+      s: "+"
+    PLUS: +
+    MINUS:
+      t: "-"
+      s: "_"
+    UNDERSCORE: _
+    UNDER: _
+    SLASH:
+      t: "/"
+      s: "?"
+    FSLH:
+      t: "/"
+      s: "?"
+    QUESTION: "?"
+    QMARK: "?"
+    BACKSLASH:
+      t: '\'
+      s: "|"
+    BSLH:
+      t: '\'
+      s: "|"
+    PIPE: "|"
+    NON_US_BACKSLASH: \
+    PIPE2: "|"
+    NON_US_BSLH: "|"
+    SEMICOLON:
+      t: ";"
+      s: ":"
+    SEMI:
+      t: ";"
+      s: ":"
+    COLON: ":"
+    SINGLE_QUOTE:
+      t: "'"
+      s: '"'
+    SQT:
+      t: "'"
+      s: '"'
+    APOSTROPHE: <
+    APOS: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA:
+      t: ","
+      s: "<"
+    LESS_THAN: <
+    LT: <
+    PERIOD:
+      t: "."
+      s: ">"
+    DOT:
+      t: "."
+      s: ">"
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET:
+      t: "["
+      s: "{"
+    LBKT:
+      t: "["
+      s: "{"
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET:
+      t: "]"
+      s: "}"
+    RBKT:
+      t: "]"
+      s: "}"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    GRAVE:
+      t: "`"
+      s: "~"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
+    # Numbers
+    N1:
+      t: 1
+      s: "!"
+    N2:
+      t: 2
+      s: "@"
+    N3:
+      t: 3
+      s: "#"
+    N4:
+      t: 4
+      s: "$"
+    N5:
+      t: 5
+      s: "%"
+    N6:
+      t: 6
+      s: "^"
+    N7:
+      t: 7
+      s: "&"
+    N8:
+      t: 8
+      s: "*"
+    N9:
+      t: 9
+      s: "("
+    N0:
+      t: 0
+      s: ")"
+    # Modifiers
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LALT: $$mdi:apple-keyboard-option$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LCMD: $$mdi:apple-keyboard-command$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RALT: $$mdi:apple-keyboard-option$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RCMD: $$mdi:apple-keyboard-command$$
+    LS(LC(LALT)): "Meh"
+    # Arrows
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    # Whitespace
+    ENTER: $$mdi:keyboard-return$$
+    ESC: $$mdi:keyboard-esc$$
+    TAB: $$mdi:keyboard-tab$$
+    LS(TAB): $$mdi:keyboard-tab-reverse$$
+    SPACE: $$mdi:keyboard-space$$
+    BACKSPACE: $$mdi:backspace$$
+    BSPC: $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
+    # Locks
+    CAPS_LOCK: $$mdi:apple-keyboard-caps$$
+    CAPS: $$mdi:apple-keyboard-caps$$
+    # Sound
+    C_MUTE: $$mdi:volume-off$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
+    # Media
+    C_NEXT: $$mdi:skip-next$$
+    C_PREV: $$mdi:skip-previous$$
+    C_PP: $$mdi:play-pause$$
+    # Bluetooth
+    BT_CLR: $$mdi:bluetooth-off$$
+    BT_SEL: $$mdi:bluetooth-connect$$
+    # Function Keys
+    F1: $$mdi:keyboard-f1$$
+    F2: $$mdi:keyboard-f2$$
+    F3: $$mdi:keyboard-f3$$
+    F4: $$mdi:keyboard-f4$$
+    F5: $$mdi:keyboard-f5$$
+    F6: $$mdi:keyboard-f6$$
+    F7: $$mdi:keyboard-f7$$
+    F8: $$mdi:keyboard-f8$$
+    F9: $$mdi:keyboard-f9$$
+    F10: $$mdi:keyboard-f10$$
+    F11: $$mdi:keyboard-f11$$
+    F12: $$mdi:keyboard-f12$$
+    # Settings
+    C_BRI_UP: $$mdi:brightness-5$$
+    C_BRI_DN: $$mdi:brightness-7$$
+
+  zmk_combos:
+    combo_lm_2_shift:
+      key:
+        shifted: L2
+        hold: $$mdi:apple-keyboard-shift$$
+    combo_to_2:
+      align: top
+    combo_to_3:
+      align: bottom
+      offset: 0.5
+    combo_bt_clear:
+      align: top
+    # combo_ampersand:
+    #   align: left
+    #   offset: -0.1
+    # combo_star:
+    #   align: left
+    #   offset: -0.1
+    combo_minus:
+      key:
+        shifted: "_"
+        hold: "-"
+    combo_equal:
+      key:
+        shifted: "+"
+        hold: "="
+    combo_backslash:
+      align: right
+      offset: -0.1
+      key:
+        shifted: "|"
+        hold: \
+    combo_grave:
+      key:
+        shifted: "~"
+        hold: "`"
+    combo_semi:
+      align: right
+      offset: -0.1
+      key:
+        shifted: ":"
+        hold: ";"
+    combo_lbkt:
+      # align: right
+      # offset: -0.1
+      key:
+        shifted: "{"
+        hold: "["
+    combo_rbkt:
+      # align: right
+      # offset: -0.1
+      key:
+        shifted: "}"
+        hold: "]"
+    # combo_mute:
+    #   align: top
+    #   offset: 0.2
+    combo_volume:
+      key: $$mdi:volume-high$$
+    combo_next_prev:
+      key:
+        shifted: $$mdi:skip-previous$$
+        hold: $$mdi:skip-next$$
+    combo_brightness:
+      key: $$mdi:brightness-7$$
