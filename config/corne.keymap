@@ -12,28 +12,134 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_swedish {
-            bindings = <&tog 1>;
-            key-positions = <7 8 9>;
-            layers = <0 1>;
-        };
-
         combo_gaming {
             bindings = <&tog 2>;
-            key-positions = <31 32 33>;
+            key-positions = <35 34>;
             layers = <0 2>;
-        };
-
-        combo_caps_lock {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <2 3 4>;
-            layers = <0 1 2>;
+            require-prior-idle-ms = <150>;
         };
 
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <2 3 4 1>;
-            layers = <4>;
+            key-positions = <11 23 35>;
+            layers = <1>;
+            require-prior-idle-ms = <150>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 2>;
+            layers = <0>;
+            require-prior-idle-ms = <150>;
+        };
+
+        combo_at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <2 3>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 4>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <5 4>;
+            layers = <0>;
+            require-prior-idle-ms = <150>;
+        };
+
+        combo_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <13 14>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <14 15>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <15 16>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_star {
+            bindings = <&kp ASTERISK>;
+            key-positions = <17 16>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <19 20>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <20 21>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        combo_swedish_ao {
+            bindings = <&tap_swe_ao>;
+            key-positions = <10 11>;
+            layers = <0>;
+        };
+
+        combo_swedish_ae {
+            bindings = <&tap_swe_ae>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        combo_swedish_o {
+            bindings = <&tap_swe_o>;
+            key-positions = <22 21>;
+            layers = <0>;
         };
     };
 
@@ -92,6 +198,15 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <36 37 38 39 40 41 41 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
         };
+
+        sticky_shift: sticky_shift {
+            compatible = "zmk,behavior-mod-morph";
+            label = "STICKY_SHIFT";
+            bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -99,19 +214,19 @@
 
         default {
             bindings = <
-&kp TAB        &kp Q       &kp W       &kp E        &kp R         &kp T        &kp Y          &kp U         &kp I        &kp O       &kp P               &kp MINUS
-&kp BACKSLASH  &mt LCMD A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G        &kp H          &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &mt RCMD SEMICOLON  &kp SQT
-&kp GRAVE      &kp Z       &kp X       &kp C        &kp V         &kp B        &kp N          &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp EQUAL
-                                       &mo 5        &lt 3 ESC     &kp ENTER    &kp BACKSPACE  &lt 3 SPACE   &mo 4
+&kp TAB        &kp Q       &kp W       &kp E        &kp R          &kp T        &kp Y          &kp U         &kp I        &kp O       &kp P               &kp MINUS
+&kp BACKSLASH  &mt LCMD A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F   &kp G        &kp H          &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &mt RCMD SEMICOLON  &kp SQT
+&kp GRAVE      &kp Z       &kp X       &kp C        &kp V          &kp B        &kp N          &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp EQUAL
+                                       &kp ESC      &sticky_shift  &kp ENTER    &kp BACKSPACE  &lt 1 SPACE   &none
             >;
         };
 
-        swedish {
+        system {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &tap_swe_ao
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &tap_swe_o  &tap_swe_ae
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp C_MUTE    &none     &kp UP    &none      &none  &bt BT_SEL 2
+&none  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &kp C_VOL_UP  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &bt BT_SEL 1
+&none  &none   &none   &none   &none   &none     &kp C_VOL_DN  &none     &none     &none      &none  &bt BT_SEL 0
+                       &trans  &trans  &trans    &trans        &trans    &trans
             >;
         };
 
@@ -120,34 +235,7 @@
 &kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U         &kp I        &kp O       &kp P               &kp MINUS
 &kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &mt RCMD SEMICOLON  &kp APOS
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp EQUAL
-                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 3         &mo 4
-            >;
-        };
-
-        symbols {
-            bindings = <
-&none  &kp EXCLAMATION  &kp AT            &kp HASH        &kp DOLLAR            &none     &none   &kp PERCENT            &kp CARET        &kp AMPS           &kp ASTRK  &trans
-&none  &kp LT           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &none     &none   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GT     &trans
-&none  &kp N1           &kp N2            &kp N3          &kp N4                &kp N5    &kp N6  &kp N7                 &kp N8           &kp N9             &kp N0     &trans
-                                          &trans          &trans                &trans    &trans  &trans                 &trans
-            >;
-        };
-
-        system {
-            bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none     &kp UP    &none      &none  &none
-&none  &none         &none         &none         &none         &none           &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
-&none  &kp C_VOL_DN  &kp C_VOL_UP  &none         &kp C_MUTE    &none           &none   &none     &none     &none      &none  &none
-                                   &trans        &trans        &trans          &trans  &trans    &trans
-            >;
-        };
-
-        numpad {
-            bindings = <
-&none  &none  &none  &none   &none   &none     &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp COMMA   &kp MINUS
-&none  &none  &none  &none   &none   &none     &kp STAR     &kp N4  &kp N5  &kp N6  &kp PERIOD  &kp PLUS
-&none  &none  &none  &none   &none   &none     &kp UNDER    &kp N1  &kp N2  &kp N3  &kp SLASH   &kp EQUAL
-                     &trans  &trans  &trans    &trans       &trans  &kp N0
+                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 0         &mo 1
             >;
         };
     };
