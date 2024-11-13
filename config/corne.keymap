@@ -148,8 +148,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_AO";
             #binding-cells = <0>;
-            bindings = <&kp LA(W)>, <&kp MINUS>;
-
+            bindings = <&kp LA(W)>;
             tapping-term-ms = <200>;
         };
 
@@ -157,8 +156,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_AE";
             #binding-cells = <0>;
-            bindings = <&kp LA(A)>, <&kp SINGLE_QUOTE>;
-
+            bindings = <&kp LA(A)>;
             tapping-term-ms = <200>;
         };
 
@@ -166,8 +164,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_O";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp SEMICOLON>;
-
+            bindings = <&kp LA(O)>;
             tapping-term-ms = <200>;
         };
 
@@ -235,7 +232,7 @@
 &kp TAB    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U         &kp I        &kp O       &kp P               &kp MINUS
 &kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &mt RSHIFT J  &mt RCTRL K  &mt RALT L  &mt RCMD SEMICOLON  &kp APOS
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M         &kp COMMA    &kp DOT     &kp FSLH            &kp EQUAL
-                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 0         &mo 1
+                         &kp ESC  &kp SPACE  &kp ENTER    &kp BSPC  &mo 1         &none
             >;
         };
     };

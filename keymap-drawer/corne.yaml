@@ -127,8 +127,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - default
   - system
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [35, 34]
   k: {t: gaming, h: toggle}
