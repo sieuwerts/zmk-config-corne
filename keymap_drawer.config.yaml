@@ -181,12 +181,15 @@ parse_config:
     # Behaviours
     "&tap_swe_ao":
       tap: å
+      hold: "-"
 
     "&tap_swe_ae":
       tap: ä
+      hold: "'"
 
     "&tap_swe_o":
       tap: ö
+      hold: ";"
 
   # ZMK
   zmk_keycode_map:
