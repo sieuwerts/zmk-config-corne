@@ -177,10 +177,10 @@ combos:
   k: '}'
   l: [default]
 - p: [31, 32]
-  k: {h: '['}
+  k: '['
   l: [default]
 - p: [32, 33]
-  k: {h: ']'}
+  k: ']'
   l: [default]
 - p: [10, 11]
   k: å

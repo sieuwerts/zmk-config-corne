@@ -420,11 +420,11 @@ path.combo {
 </g>
 <g class="combo combopos-13">
 <rect rx="4" ry="4" x="602" y="130" width="28" height="26" class="combo"/>
-<text x="616" y="152" class="combo hold">[</text>
+<text x="616" y="144" class="combo tap">[</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="4" ry="4" x="658" y="130" width="28" height="26" class="combo"/>
-<text x="672" y="152" class="combo hold">]</text>
+<text x="672" y="144" class="combo tap">]</text>
 </g>
 <g class="combo combopos-15">
 <rect rx="4" ry="4" x="770" y="36" width="28" height="26" class="combo"/>
