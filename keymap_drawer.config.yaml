@@ -181,15 +181,12 @@ parse_config:
     # Behaviours
     "&tap_swe_ao":
       tap: å
-      hold: "-"
 
     "&tap_swe_ae":
       tap: ä
-      hold: "'"
 
     "&tap_swe_o":
       tap: ö
-      hold: ";"
 
   # ZMK
   zmk_keycode_map:
@@ -383,18 +380,12 @@ parse_config:
     C_BRI_DN: $$mdi:brightness-7$$
 
   zmk_combos:
-    combo_swedish:
-      align: top
-      offset: 0.2
-    combo_caps_lock:
-      align: top
-      offset: 0.2
     combo_gaming:
       align: bottom
-      offset: 0.2
+      offset: 0.3
     combo_bt_clear:
-      align: top
-      offset: 0.2
+      align: right
+      offset: 0.3
       key:
         shifted: $$mdi:bluetooth-connect$$
         hold: "clear"
