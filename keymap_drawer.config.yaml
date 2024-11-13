@@ -385,6 +385,7 @@ parse_config:
       offset: 0.3
     combo_bt_clear:
       align: left
+      offset: 0.2
       key:
         shifted: $$mdi:bluetooth-connect$$
         hold: "clear"

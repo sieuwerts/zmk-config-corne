@@ -626,12 +626,12 @@ path.combo {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-8" y="-8" height="16" width="16.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<path d="M784,105 v-50 a6.0,6.0 0 0 1 6.0,-6.0 h4" class="combo"/>
-<path d="M784,105 l17,0" class="combo"/>
-<path d="M784,105 v50 a6.0,6.0 0 0 0 6.0,6.0 h4" class="combo"/>
-<rect rx="4" ry="4" x="770" y="92" width="28" height="26" class="combo"/>
-<text x="784" y="114" class="combo hold">clear</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="778" y="96" height="10" width="10.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+<path d="M772,105 v-50 a6.0,6.0 0 0 1 6.0,-6.0 h15" class="combo"/>
+<path d="M772,105 l21,0" class="combo"/>
+<path d="M772,105 v50 a6.0,6.0 0 0 0 6.0,6.0 h15" class="combo"/>
+<rect rx="4" ry="4" x="758" y="92" width="28" height="26" class="combo"/>
+<text x="772" y="114" class="combo hold">clear</text>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="767" y="96" height="10" width="10.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 </g>
 </g>
