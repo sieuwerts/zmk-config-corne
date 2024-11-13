@@ -182,7 +182,7 @@ combos:
   k: {h: clear, s: '$$mdi:bluetooth-connect$$'}
   l: [system]
   a: bottom
-  o: 0.2
+  o: 0.3
 - p: [1, 2]
   k: '!'
   l: [default]
