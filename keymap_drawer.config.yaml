@@ -382,7 +382,7 @@ parse_config:
   zmk_combos:
     combo_gaming:
       align: bottom
-      offset: 0.3
+      offset: 0.2
     combo_bt_clear:
       align: left
       offset: 0.2

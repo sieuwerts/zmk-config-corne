@@ -363,12 +363,12 @@ path.combo {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M784,206 h22 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
-<path d="M784,206 h-22 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
-<rect rx="4" ry="4" x="770" y="193" width="28" height="26" class="combo"/>
+<path d="M784,201 h22 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
+<path d="M784,201 h-22 a6.0,6.0 0 0 1 -6.0,-6.0 v-15" class="combo"/>
+<rect rx="4" ry="4" x="770" y="188" width="28" height="26" class="combo"/>
 <a href="#gaming">
-<text x="784" y="206" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
-</a><text x="784" y="215" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<text x="784" y="201" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
+</a><text x="784" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="98" y="29" width="28" height="26" class="combo"/>
@@ -818,12 +818,12 @@ path.combo {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M784,206 h22 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
-<path d="M784,206 h-22 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
-<rect rx="4" ry="4" x="770" y="193" width="28" height="26" class="combo"/>
+<path d="M784,201 h22 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
+<path d="M784,201 h-22 a6.0,6.0 0 0 1 -6.0,-6.0 v-15" class="combo"/>
+<rect rx="4" ry="4" x="770" y="188" width="28" height="26" class="combo"/>
 <a href="#gaming">
-<text x="784" y="206" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
-</a><text x="784" y="215" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<text x="784" y="201" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
+</a><text x="784" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 </g>
 </g>

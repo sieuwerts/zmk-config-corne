@@ -134,7 +134,7 @@ combos:
   k: {t: gaming, h: toggle}
   l: [default, gaming]
   a: bottom
-  o: 0.3
+  o: 0.2
 - p: [11, 23, 35]
   k: {h: clear, s: '$$mdi:bluetooth-connect$$'}
   l: [system]
