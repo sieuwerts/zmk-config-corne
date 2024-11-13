@@ -197,6 +197,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            require-prior-idle-ms = <300>;
+            flavor = "balanced";
         };
     };
 
