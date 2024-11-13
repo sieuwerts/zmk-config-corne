@@ -21,11 +21,10 @@ keyboard using [ZMK](https://zmk.dev/) together with nickcoutsos
 
 ## Keymap
 
-This is the current keymap, this render is automatically generated using
+This is the current keymap, this image is automatically generated using
 [keymap-drawer](https://github.com/caksoylar/keymap-drawer). See the
-[workflow](./.github/workflows/draw-keymaps.yml) for more details. It will
-generate everytime there are changes to the `config/corne.keymap` file and
-amend to the triggering commit. This might require a `git pull --rebase`
-locally to avoid diverging branches.
+[workflow](./.github/workflows/draw-keymaps.yml) for more details. It will be
+generated everytime there are changes to the `config/corne.keymap` or
+`keymap_drawer.config.yaml` files and push a new commit.
 
 ![keymap](./keymap-drawer/corne.svg)
