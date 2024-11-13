@@ -389,3 +389,11 @@ parse_config:
       key:
         shifted: $$mdi:bluetooth-connect$$
         hold: "clear"
+    combo_left_bracket:
+      key:
+        shifted: ""
+        hold: "["
+    combo_right_bracket:
+      key:
+        shifted: ""
+        hold: "]"
