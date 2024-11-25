@@ -332,9 +332,9 @@ path.combo {
 <text x="0" y="0" class="key tap">=</text>
 <text x="0" y="-23" class="key shifted">+</text>
 </g>
-<g transform="translate(224, 205)" class="key none keypos-36">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(224, 205)" class="key keypos-36">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -434,9 +434,9 @@ path.combo {
 <g transform="translate(0, 289)" class="layer-system">
 <text x="0" y="7" class="label" id="system">system</text>
 <g transform="translate(0, 14)">
-<g transform="translate(28, 49)" class="key keypos-0">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-tab"/>
+<g transform="translate(28, 49)" class="key none keypos-0">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(84, 49)" class="key none keypos-1">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>

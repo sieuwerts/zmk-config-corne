@@ -37,14 +37,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: RIGHT SHIFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}
   - {t: swedish, h: swedish}
   system:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
