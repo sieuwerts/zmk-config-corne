@@ -185,43 +185,43 @@ combos:
   o: 0.2
 - p: [1, 2]
   k: '!'
-  l: [default]
+  l: [default, swedish]
 - p: [2, 3]
   k: '@'
-  l: [default]
+  l: [default, swedish]
 - p: [3, 4]
   k: '#'
-  l: [default]
+  l: [default, swedish]
 - p: [5, 4]
   k: $
-  l: [default]
+  l: [default, swedish]
 - p: [13, 14]
   k: '%'
-  l: [default]
+  l: [default, swedish]
 - p: [14, 15]
   k: ^
-  l: [default]
+  l: [default, swedish]
 - p: [15, 16]
   k: '&'
-  l: [default]
+  l: [default, swedish]
 - p: [17, 16]
   k: '*'
-  l: [default]
+  l: [default, swedish]
 - p: [7, 8]
   k: (
-  l: [default]
+  l: [default, swedish]
 - p: [8, 9]
   k: )
-  l: [default]
+  l: [default, swedish]
 - p: [19, 20]
   k: '{'
-  l: [default]
+  l: [default, swedish]
 - p: [20, 21]
   k: '}'
-  l: [default]
+  l: [default, swedish]
 - p: [31, 32]
   k: '['
-  l: [default]
+  l: [default, swedish]
 - p: [32, 33]
   k: ']'
-  l: [default]
+  l: [default, swedish]
