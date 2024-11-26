@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - $$mdi:keyboard-tab$$
+  - swedish
   - {t: RIGHT SHIFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}
-  - {t: swedish, h: swedish}
+  - swedish
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -123,12 +123,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   gaming:
   - $$mdi:keyboard-esc$$
   - Q
@@ -173,7 +173,7 @@ layers:
   - system
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [35, 34]
+- p: [35, 34, 33]
   k: {t: gaming, h: toggle}
   l: [default, gaming]
   a: bottom
@@ -224,4 +224,10 @@ combos:
   l: [default, swedish]
 - p: [32, 33]
   k: ']'
+  l: [default, swedish]
+- p: [0, 12]
+  k: $$mdi:keyboard-tab$$
+  l: [default, swedish, gaming]
+- p: [36, 41]
+  k: {t: swedish, h: toggle}
   l: [default, swedish]
