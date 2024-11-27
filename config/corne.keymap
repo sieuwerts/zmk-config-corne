@@ -144,7 +144,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_AO";
             #binding-cells = <0>;
-            bindings = <&kp LA(W)>, <&kp MINUS>;
+            bindings = <&kp RA(W)>, <&kp MINUS>;
 
             tapping-term-ms = <200>;
         };
@@ -153,7 +153,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_AE";
             #binding-cells = <0>;
-            bindings = <&kp LA(A)>, <&kp APOSTROPHE>;
+            bindings = <&kp RA(A)>, <&kp APOSTROPHE>;
 
             tapping-term-ms = <200>;
         };
@@ -162,7 +162,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SWE_O";
             #binding-cells = <0>;
-            bindings = <&kp LA(O)>, <&kp SEMICOLON>;
+            bindings = <&kp RA(O)>, <&kp SEMICOLON>;
 
             tapping-term-ms = <200>;
         };
