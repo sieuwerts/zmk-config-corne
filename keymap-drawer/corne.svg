@@ -365,13 +365,12 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 71%">swedish</tspan></text>
 </a></g>
 <g class="combo combopos-0">
-<path d="M756,201 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<path d="M756,201 l0,-21" class="combo"/>
-<path d="M756,201 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-29" class="combo"/>
-<rect rx="4" ry="4" x="742" y="188" width="28" height="26" class="combo"/>
+<path d="M756,156 l37,3" class="combo"/>
+<path d="M756,156 l-38,-6" class="combo"/>
+<rect rx="4" ry="4" x="742" y="143" width="28" height="26" class="combo"/>
 <a href="#gaming">
-<text x="756" y="201" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
-</a><text x="756" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<text x="756" y="156" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
+</a><text x="756" y="165" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="98" y="29" width="28" height="26" class="combo"/>
@@ -791,6 +790,7 @@ path.combo {
 </g>
 <g transform="translate(224, 205)" class="key held keypos-36">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key held"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key held tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key trans keypos-37">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
@@ -808,9 +808,9 @@ path.combo {
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-8" y="-8" height="16" width="16.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(616, 205)" class="key trans keypos-41">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-8" y="-8" height="16" width="16.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(616, 205)" class="key none keypos-41">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="4" ry="4" x="98" y="29" width="28" height="26" class="combo"/>
@@ -1065,13 +1065,12 @@ path.combo {
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g class="combo combopos-0">
-<path d="M756,201 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<path d="M756,201 l0,-21" class="combo"/>
-<path d="M756,201 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-29" class="combo"/>
-<rect rx="4" ry="4" x="742" y="188" width="28" height="26" class="combo"/>
+<path d="M756,156 l37,3" class="combo"/>
+<path d="M756,156 l-38,-6" class="combo"/>
+<rect rx="4" ry="4" x="742" y="143" width="28" height="26" class="combo"/>
 <a href="#gaming">
-<text x="756" y="201" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
-</a><text x="756" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<text x="756" y="156" class="combo tap layer-activator"><tspan style="font-size: 83%">gaming</tspan></text>
+</a><text x="756" y="165" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="14" y="64" width="28" height="26" class="combo"/>

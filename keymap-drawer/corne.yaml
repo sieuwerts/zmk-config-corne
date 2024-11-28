@@ -123,12 +123,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   gaming:
   - $$mdi:keyboard-esc$$
   - Q
@@ -176,8 +176,6 @@ combos:
 - p: [35, 34, 33]
   k: {t: gaming, h: toggle}
   l: [default, gaming]
-  a: bottom
-  o: 0.2
 - p: [39, 41]
   k: {h: clear, s: '$$mdi:bluetooth-connect$$'}
   l: [system]
