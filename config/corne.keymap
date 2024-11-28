@@ -12,7 +12,7 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_gaming {
+        combo_gaming_toggle {
             bindings = <&tog 3>;
             key-positions = <35 34 33>;
             layers = <0 3>;
@@ -242,7 +242,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &tap_swe_ao
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &tap_swe_o  &tap_swe_ae
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &none   &trans  &trans    &trans  &trans  &none
             >;
         };
 
