@@ -364,12 +364,12 @@ path.combo {
 <use href="#mdi:earth" xlink:href="#mdi:earth" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:earth"/>
 </g>
 <g class="combo combopos-0">
-<path d="M756,201 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<path d="M756,201 l0,-21" class="combo"/>
-<path d="M756,201 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-29" class="combo"/>
-<rect rx="4" ry="4" x="742" y="188" width="28" height="26" class="combo"/>
-<use href="#mdi:space-invaders" xlink:href="#mdi:space-invaders" x="748" y="193" height="16" width="16.0" class="combo tap glyph mdi:space-invaders"/>
-<text x="756" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<path d="M756,206 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
+<path d="M756,206 l0,-27" class="combo"/>
+<path d="M756,206 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-35" class="combo"/>
+<rect rx="4" ry="4" x="742" y="193" width="28" height="26" class="combo"/>
+<text x="756" y="215" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<use href="#mdi:space-invaders" xlink:href="#mdi:space-invaders" x="751" y="197" height="10" width="10.0" class="combo shifted glyph mdi:space-invaders"/>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="98" y="29" width="28" height="26" class="combo"/>
@@ -432,11 +432,11 @@ path.combo {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="20" y="69" height="16" width="16.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo combopos-16">
-<path d="M420,245 h-190 a6.0,6.0 0 0 1 -6.0,-6.0 v-15" class="combo"/>
-<path d="M420,245 h190 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<rect rx="4" ry="4" x="406" y="232" width="28" height="26" class="combo"/>
-<use href="#mdi:earth" xlink:href="#mdi:earth" x="412" y="237" height="16" width="16.0" class="combo tap glyph mdi:earth"/>
-<text x="420" y="254" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<path d="M420,250 h-190 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<path d="M420,250 h190 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
+<rect rx="4" ry="4" x="406" y="237" width="28" height="26" class="combo"/>
+<text x="420" y="259" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<use href="#mdi:earth" xlink:href="#mdi:earth" x="415" y="241" height="10" width="10.0" class="combo shifted glyph mdi:earth"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="4" ry="4" x="798" y="120" width="28" height="26" class="combo"/>
@@ -924,11 +924,11 @@ path.combo {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="20" y="69" height="16" width="16.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo combopos-15">
-<path d="M420,245 h-190 a6.0,6.0 0 0 1 -6.0,-6.0 v-15" class="combo"/>
-<path d="M420,245 h190 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<rect rx="4" ry="4" x="406" y="232" width="28" height="26" class="combo"/>
-<use href="#mdi:earth" xlink:href="#mdi:earth" x="412" y="237" height="16" width="16.0" class="combo tap glyph mdi:earth"/>
-<text x="420" y="254" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<path d="M420,250 h-190 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<path d="M420,250 h190 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
+<rect rx="4" ry="4" x="406" y="237" width="28" height="26" class="combo"/>
+<text x="420" y="259" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<use href="#mdi:earth" xlink:href="#mdi:earth" x="415" y="241" height="10" width="10.0" class="combo shifted glyph mdi:earth"/>
 </g>
 </g>
 </g>
@@ -1112,12 +1112,12 @@ path.combo {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-0">
-<path d="M756,201 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-15" class="combo"/>
-<path d="M756,201 l0,-21" class="combo"/>
-<path d="M756,201 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-29" class="combo"/>
-<rect rx="4" ry="4" x="742" y="188" width="28" height="26" class="combo"/>
-<use href="#mdi:space-invaders" xlink:href="#mdi:space-invaders" x="748" y="193" height="16" width="16.0" class="combo tap glyph mdi:space-invaders"/>
-<text x="756" y="210" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<path d="M756,206 h50 a6.0,6.0 0 0 0 6.0,-6.0 v-21" class="combo"/>
+<path d="M756,206 l0,-27" class="combo"/>
+<path d="M756,206 h-50 a6.0,6.0 0 0 1 -6.0,-6.0 v-35" class="combo"/>
+<rect rx="4" ry="4" x="742" y="193" width="28" height="26" class="combo"/>
+<text x="756" y="215" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+<use href="#mdi:space-invaders" xlink:href="#mdi:space-invaders" x="751" y="197" height="10" width="10.0" class="combo shifted glyph mdi:space-invaders"/>
 </g>
 <g class="combo combopos-1">
 <rect rx="4" ry="4" x="14" y="64" width="28" height="26" class="combo"/>
