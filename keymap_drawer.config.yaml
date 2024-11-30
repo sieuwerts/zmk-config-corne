@@ -172,6 +172,16 @@ parse_config:
       tap: ""
       hold: 5
 
+    # custom
+    # lt systems layer
+    "&lt 1 SPACE":
+      tap: $$mdi:keyboard-space$$
+      hold: $$mdi:arrow-down-bold-box$$
+    # custom
+    # mo swe layer
+    "&mo 2":
+      tap: $$mdi:earth$$
+
     # Reset
     "&sys_reset":
       tap: $$mdi:backup-restore$$
@@ -179,17 +189,21 @@ parse_config:
       tap: $$mdi:progress-download$$
 
     # Behaviours
+    # custom
     "&tap_swe_ao":
       tap: å
       hold: "-"
-
+    # custom
     "&tap_swe_ae":
       tap: ä
       hold: "'"
-
+    # custom
     "&tap_swe_o":
       tap: ö
       hold: ";"
+    # custom
+    "&sticky_shift":
+      tap: $$mdi:apple-keyboard-caps$$
 
   # ZMK
   zmk_keycode_map:
@@ -382,13 +396,20 @@ parse_config:
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRI_DN: $$mdi:brightness-7$$
 
+  # custom
   zmk_combos:
     combo_gaming_toggle:
       align: bottom
       offset: 0.2
+      key:
+        tap: $$mdi:space-invaders$$
+        hold: "toggle"
     combo_swedish_toggle:
       align: bottom
       offset: 0.2
+      key:
+        tap: $$mdi:earth$$
+        hold: "toggle"
     combo_bt_clear:
       align: bottom
       offset: 0.2
