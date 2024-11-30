@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - swedish
-  - {t: RIGHT SHIFT, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - $$mdi:earth$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - {t: '$$mdi:keyboard-space$$', h: system}
-  - swedish
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
+  - $$mdi:earth$$
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -84,7 +84,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   swedish:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [35, 34, 33]
-  k: {t: gaming, h: toggle}
+  k: {t: '$$mdi:space-invaders$$', h: toggle}
   l: [default, gaming]
   a: bottom
   o: 0.2
@@ -229,7 +229,7 @@ combos:
   k: $$mdi:keyboard-tab$$
   l: [default, swedish, gaming]
 - p: [36, 41]
-  k: {t: swedish, h: toggle}
+  k: {t: '$$mdi:earth$$', h: toggle}
   l: [default, swedish]
   a: bottom
   o: 0.2
