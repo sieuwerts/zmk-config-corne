@@ -1103,9 +1103,8 @@ path.combo {
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<a href="#system">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 83%">system</tspan></text>
-</a></g>
+<use href="#mdi:arrow-down-bold-box" xlink:href="#mdi:arrow-down-bold-box" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-down-bold-box"/>
+</g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:apple-keyboard-command"/>

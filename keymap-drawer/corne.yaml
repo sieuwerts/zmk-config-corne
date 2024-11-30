@@ -170,7 +170,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - system
+  - $$mdi:arrow-down-bold-box$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [35, 34, 33]
