@@ -400,15 +400,15 @@ parse_config:
   zmk_combos:
     combo_gaming_toggle:
       align: bottom
-      offset: 0.2
+      offset: 0.3
       key:
-        tap: $$mdi:space-invaders$$
+        shifted: $$mdi:space-invaders$$
         hold: "toggle"
     combo_swedish_toggle:
       align: bottom
-      offset: 0.2
+      offset: 0.3
       key:
-        tap: $$mdi:earth$$
+        shifted: $$mdi:earth$$
         hold: "toggle"
     combo_bt_clear:
       align: bottom
