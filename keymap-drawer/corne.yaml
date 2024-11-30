@@ -229,3 +229,42 @@ combos:
 - p: [36, 41]
   k: {t: swedish, h: toggle}
   l: [default, swedish]
+- p: [23, 35]
+  k: AGr+ W
+  l: [default]
+- p: [22, 34]
+  k: AGr+ A
+  l: [default]
+- p: [21, 33]
+  k: AGr+ O
+  l: [default]
+- p: [1, 13]
+  k: {t: '1', s: '!'}
+  l: [default, gaming]
+- p: [2, 14]
+  k: {t: '2', s: '@'}
+  l: [default, gaming]
+- p: [3, 15]
+  k: {t: '3', s: '#'}
+  l: [default, gaming]
+- p: [16, 4]
+  k: {t: '4', s: $}
+  l: [default, gaming]
+- p: [5, 17]
+  k: {t: '5', s: '%'}
+  l: [default, gaming]
+- p: [6, 18]
+  k: {t: '6', s: ^}
+  l: [default, gaming]
+- p: [7, 19]
+  k: {t: '7', s: '&'}
+  l: [default, gaming]
+- p: [8, 20]
+  k: {t: '8', s: '*'}
+  l: [default, gaming]
+- p: [21, 9]
+  k: {t: '9', s: (}
+  l: [default, gaming]
+- p: [10, 22]
+  k: {t: '0', s: )}
+  l: [default, gaming]
