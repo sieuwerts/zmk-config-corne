@@ -178,6 +178,10 @@ parse_config:
       tap: $$mdi:keyboard-space$$
       hold: $$mdi:arrow-down-bold-box$$
     # custom
+    # mo systems layer
+    "&mo 1":
+      tap: $$mdi:arrow-down-bold-box$$
+    # custom
     # mo swe layer
     "&mo 2":
       tap: $$mdi:earth$$
