@@ -149,10 +149,10 @@ layers:
   - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - .
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -171,7 +171,7 @@ layers:
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - system
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [35, 34, 33]
   k: {t: gaming, h: toggle}
