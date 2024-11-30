@@ -383,7 +383,10 @@ parse_config:
     C_BRI_DN: $$mdi:brightness-7$$
 
   zmk_combos:
-    combo_gaming:
+    combo_gaming_toggle:
+      align: bottom
+      offset: 0.2
+    combo_swedish_toggle:
       align: bottom
       offset: 0.2
     combo_bt_clear:
@@ -398,3 +401,42 @@ parse_config:
     combo_right_bracket:
       key:
         tap: "]"
+    combo_swe_ao:
+      key:
+        tap: "å"
+    combo_swe_ae:
+      key:
+        tap: "ä"
+    combo_swe_o:
+      key:
+        tap: "ö"
+    combo_num_1:
+      key:
+        tap: "1"
+    combo_num_2:
+      key:
+        tap: "2"
+    combo_num_3:
+      key:
+        tap: "3"
+    combo_num_4:
+      key:
+        tap: "4"
+    combo_num_5:
+      key:
+        tap: "5"
+    combo_num_6:
+      key:
+        tap: "6"
+    combo_num_7:
+      key:
+        tap: "7"
+    combo_num_8:
+      key:
+        tap: "8"
+    combo_num_9:
+      key:
+        tap: "9"
+    combo_num_0:
+      key:
+        tap: "0"
