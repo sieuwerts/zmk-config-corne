@@ -176,6 +176,8 @@ combos:
 - p: [35, 34, 33]
   k: {t: gaming, h: toggle}
   l: [default, gaming]
+  a: bottom
+  o: 0.2
 - p: [39, 41]
   k: {h: clear, s: '$$mdi:bluetooth-connect$$'}
   l: [system]
@@ -229,42 +231,44 @@ combos:
 - p: [36, 41]
   k: {t: swedish, h: toggle}
   l: [default, swedish]
+  a: bottom
+  o: 0.2
 - p: [23, 35]
-  k: AGr+ W
+  k: å
   l: [default]
 - p: [22, 34]
-  k: AGr+ A
+  k: ä
   l: [default]
 - p: [21, 33]
-  k: AGr+ O
+  k: ö
   l: [default]
 - p: [1, 13]
-  k: {t: '1', s: '!'}
+  k: '1'
   l: [default, gaming]
 - p: [2, 14]
-  k: {t: '2', s: '@'}
+  k: '2'
   l: [default, gaming]
 - p: [3, 15]
-  k: {t: '3', s: '#'}
+  k: '3'
   l: [default, gaming]
 - p: [16, 4]
-  k: {t: '4', s: $}
+  k: '4'
   l: [default, gaming]
 - p: [5, 17]
-  k: {t: '5', s: '%'}
+  k: '5'
   l: [default, gaming]
 - p: [6, 18]
-  k: {t: '6', s: ^}
+  k: '6'
   l: [default, gaming]
 - p: [7, 19]
-  k: {t: '7', s: '&'}
+  k: '7'
   l: [default, gaming]
 - p: [8, 20]
-  k: {t: '8', s: '*'}
+  k: '8'
   l: [default, gaming]
 - p: [21, 9]
-  k: {t: '9', s: (}
+  k: '9'
   l: [default, gaming]
 - p: [10, 22]
-  k: {t: '0', s: )}
+  k: '0'
   l: [default, gaming]
