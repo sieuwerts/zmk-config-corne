@@ -137,6 +137,84 @@
             require-prior-idle-ms = <150>;
             layers = <0 2>;
         };
+
+        combo_swe_ao {
+            bindings = <&kp RA(W)>;
+            key-positions = <23 35>;
+            layers = <0>;
+        };
+
+        combo_swe_ae {
+            bindings = <&kp RA(A)>;
+            key-positions = <22 34>;
+            layers = <0>;
+        };
+
+        combo_swe_o {
+            bindings = <&kp RA(O)>;
+            key-positions = <21 33>;
+            layers = <0>;
+        };
+
+        combo_num_1 {
+            bindings = <&kp N1>;
+            key-positions = <1 13>;
+            layers = <0 3>;
+        };
+
+        combo_num_2 {
+            bindings = <&kp N2>;
+            key-positions = <2 14>;
+            layers = <0 3>;
+        };
+
+        combo_num_3 {
+            bindings = <&kp N3>;
+            key-positions = <3 15>;
+            layers = <0 3>;
+        };
+
+        combo_num_4 {
+            bindings = <&kp N4>;
+            key-positions = <16 4>;
+            layers = <0 3>;
+        };
+
+        combo_num_5 {
+            bindings = <&kp N5>;
+            key-positions = <5 17>;
+            layers = <0 3>;
+        };
+
+        combo_num_6 {
+            bindings = <&kp N6>;
+            key-positions = <6 18>;
+            layers = <0 3>;
+        };
+
+        combo_num_7 {
+            bindings = <&kp N7>;
+            key-positions = <7 19>;
+            layers = <0 3>;
+        };
+
+        combo_num_8 {
+            bindings = <&kp N8>;
+            key-positions = <8 20>;
+            layers = <0 3>;
+        };
+
+        combo_num_9 {
+            bindings = <&kp N9>;
+            key-positions = <21 9>;
+            layers = <0 3>;
+        };
+
+        combo_num_0 {
+            bindings = <&kp N0>;
+            key-positions = <10 22>;
+            layers = <0 3>;
+        };
     };
 
     behaviors {
