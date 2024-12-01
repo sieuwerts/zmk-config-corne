@@ -233,13 +233,13 @@ combos:
   l: [default, swedish]
   a: bottom
   o: 0.3
-- p: [23, 35]
+- p: [23, 11]
   k: å
   l: [default]
-- p: [22, 34]
+- p: [23, 35]
   k: ä
   l: [default]
-- p: [21, 33]
+- p: [22, 34]
   k: ö
   l: [default]
 - p: [1, 13]

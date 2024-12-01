@@ -439,16 +439,16 @@ path.combo {
 <use href="#mdi:earth" xlink:href="#mdi:earth" x="415" y="241" height="10" width="10.0" class="combo shifted glyph mdi:earth"/>
 </g>
 <g class="combo combopos-17">
-<rect rx="4" ry="4" x="798" y="120" width="28" height="26" class="combo"/>
-<text x="812" y="133" class="combo tap">å</text>
+<rect rx="4" ry="4" x="798" y="64" width="28" height="26" class="combo"/>
+<text x="812" y="77" class="combo tap">å</text>
 </g>
 <g class="combo combopos-18">
-<rect rx="4" ry="4" x="742" y="120" width="28" height="26" class="combo"/>
-<text x="756" y="133" class="combo tap">ä</text>
+<rect rx="4" ry="4" x="798" y="120" width="28" height="26" class="combo"/>
+<text x="812" y="133" class="combo tap">ä</text>
 </g>
 <g class="combo combopos-19">
-<rect rx="4" ry="4" x="686" y="106" width="28" height="26" class="combo"/>
-<text x="700" y="119" class="combo tap">ö</text>
+<rect rx="4" ry="4" x="742" y="120" width="28" height="26" class="combo"/>
+<text x="756" y="133" class="combo tap">ö</text>
 </g>
 <g class="combo combopos-20">
 <rect rx="4" ry="4" x="70" y="64" width="28" height="26" class="combo"/>
