@@ -326,10 +326,10 @@
 
         gaming {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U  &kp I          &kp O    &kp P          &kp MINUS
-&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &kp J  &kp K          &kp L    &kp SEMICOLON  &kp APOS
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp EQUAL
-                         &kp TAB  &kp SPACE  &kp ENTER    &kp BSPC  &mo 1  &mt RALT RCMD
+&kp ESC    &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y     &kp U        &kp I          &kp O    &kp P          &kp MINUS
+&kp LSHFT  &kp A  &kp S  &kp D    &kp F      &kp G        &kp H     &kp J        &kp K          &kp L    &kp SEMICOLON  &kp APOS
+&kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N     &kp M        &kp COMMA      &kp DOT  &kp FSLH       &kp EQUAL
+                         &kp TAB  &kp SPACE  &kp ENTER    &kp BSPC  &lt 1 SPACE  &mt RALT RCMD
             >;
         };
     };
