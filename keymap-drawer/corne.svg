@@ -930,6 +930,46 @@ path.combo {
 <text x="420" y="259" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 <use href="#mdi:earth" xlink:href="#mdi:earth" x="415" y="241" height="10" width="10.0" class="combo shifted glyph mdi:earth"/>
 </g>
+<g class="combo combopos-16">
+<rect rx="4" ry="4" x="70" y="64" width="28" height="26" class="combo"/>
+<text x="84" y="77" class="combo tap">1</text>
+</g>
+<g class="combo combopos-17">
+<rect rx="4" ry="4" x="126" y="50" width="28" height="26" class="combo"/>
+<text x="140" y="63" class="combo tap">2</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="4" ry="4" x="182" y="43" width="28" height="26" class="combo"/>
+<text x="196" y="56" class="combo tap">3</text>
+</g>
+<g class="combo combopos-19">
+<rect rx="4" ry="4" x="238" y="50" width="28" height="26" class="combo"/>
+<text x="252" y="63" class="combo tap">4</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="4" ry="4" x="294" y="57" width="28" height="26" class="combo"/>
+<text x="308" y="70" class="combo tap">5</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="4" ry="4" x="518" y="57" width="28" height="26" class="combo"/>
+<text x="532" y="70" class="combo tap">6</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="4" ry="4" x="574" y="50" width="28" height="26" class="combo"/>
+<text x="588" y="63" class="combo tap">7</text>
+</g>
+<g class="combo combopos-23">
+<rect rx="4" ry="4" x="630" y="43" width="28" height="26" class="combo"/>
+<text x="644" y="56" class="combo tap">8</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="4" ry="4" x="686" y="50" width="28" height="26" class="combo"/>
+<text x="700" y="63" class="combo tap">9</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="4" ry="4" x="742" y="64" width="28" height="26" class="combo"/>
+<text x="756" y="77" class="combo tap">0</text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 882)" class="layer-gaming">
