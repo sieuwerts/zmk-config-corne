@@ -1103,7 +1103,8 @@ path.combo {
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
-<use href="#mdi:arrow-down-bold-box" xlink:href="#mdi:arrow-down-bold-box" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-down-bold-box"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-space"/>
+<use href="#mdi:arrow-down-bold-box" xlink:href="#mdi:arrow-down-bold-box" x="-6" y="11" height="12" width="12.0" class="key hold glyph mdi:arrow-down-bold-box"/>
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
