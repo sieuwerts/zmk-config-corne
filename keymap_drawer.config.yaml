@@ -1,11 +1,11 @@
 ---
-# inspiration: https://github.com/minusfive/zmk-config
+# mdi glyphs:
+# https://github.com/Templarian/MaterialDesign-SVG
+# https://pictogrammers.com/library/mdi/
 draw_config:
-  # key_w: 72.0
-  # key_h: 56.0
-  # split_gap: 20.0
-  # combo_w: 40.0
-  # combo_h: 30.0
+  key_h: 60.0
+  combo_w: 25.0
+  combo_h: 25.0
   key_rx: 4.0
   key_ry: 4.0
   inner_pad_w: 1.0
@@ -18,10 +18,11 @@ draw_config:
   append_colon_to_layer_header: false
   small_pad: 4.0
   svg_style: |
-    /* inherit to force styles through use tags*/
+    /* inherit to force styles through use tags */
     svg path {
         fill: inherit;
     }
+
     /* font and background color specifications */
     svg.keymap {
         font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
@@ -40,7 +41,7 @@ draw_config:
 
     /* color accent for held keys */
     rect.held, rect.combo.held {
-        /* fill: #fdd; */
+        fill: #fdd;
     }
 
     /* color accent for ghost (optional) keys */
@@ -101,6 +102,7 @@ draw_config:
     rect.combo {
         fill: #cdf;
     }
+
     /* styling for combo dendrons */
     path.combo {
         stroke-width: 1;
@@ -110,32 +112,17 @@ draw_config:
         opacity: 0.75;
     }
 
-    /* Start Tabler Icons Cleanup */
-    /* cannot use height/width with glyphs */
-    .icon-tabler > path {
-        fill: inherit;
-        stroke: inherit;
+    /* align hold glyphs to the left to avoid collision with vertical combos, custom */
+    .hold.glyph {
+        translate: -26px 2px;
     }
-    /* hide tabler's default box */
-    .icon-tabler > path[stroke="none"][fill="none"] {
-        visibility: collapse;
-    }
-    /* End Tabler Icons Cleanup */
+
   shrink_wide_legends: 5
   glyph_tap_size: 16
   glyph_hold_size: 12
   glyph_shifted_size: 10
-  # glyphs: {}
-  # glyph_urls:
-  #   tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
-  #   mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
-  #   mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
-  #   material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
-  # use_local_cache: true
 
 parse_config:
-  # preprocess: true
-  # skip_binding_parsing: false
   sticky_label: $$mdi:gesture-tap-hold$$
   trans_legend:
     tap: $$mdi:transfer$$
@@ -177,10 +164,10 @@ parse_config:
     "&lt 1 SPACE":
       tap: $$mdi:keyboard-space$$
       hold: $$mdi:arrow-down-bold-box$$
-    # custom
     # mo swe layer
     "&mo 2":
       tap: $$mdi:earth$$
+    # /custom
 
     # Reset
     "&sys_reset":
@@ -190,20 +177,21 @@ parse_config:
 
     # Behaviours
     # custom
+    "&sticky_shift":
+      tap: $$mdi:apple-keyboard-caps$$
+
     "&tap_swe_ao":
       tap: å
       hold: "-"
-    # custom
+
     "&tap_swe_ae":
       tap: ä
       hold: "'"
-    # custom
+
     "&tap_swe_o":
       tap: ö
       hold: ";"
-    # custom
-    "&sticky_shift":
-      tap: $$mdi:apple-keyboard-caps$$
+    # /custom
 
   # ZMK
   zmk_keycode_map:
@@ -308,36 +296,37 @@ parse_config:
     NUHS: "#"
     TILDE2: "~"
     # Numbers
+    # uncomment s below for shifted variants, custom.
     N1:
       t: 1
-      s: "!"
+      # s: "!"
     N2:
       t: 2
-      s: "@"
+      # s: "@"
     N3:
       t: 3
-      s: "#"
+      # s: "#"
     N4:
       t: 4
-      s: "$"
+      # s: "$"
     N5:
       t: 5
-      s: "%"
+      # s: "%"
     N6:
       t: 6
-      s: "^"
+      # s: "^"
     N7:
       t: 7
-      s: "&"
+      # s: "&"
     N8:
       t: 8
-      s: "*"
+      # s: "*"
     N9:
       t: 9
-      s: "("
+      # s: "("
     N0:
       t: 0
-      s: ")"
+      # s: ")"
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
@@ -396,68 +385,86 @@ parse_config:
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRI_DN: $$mdi:brightness-7$$
 
-  # custom
   zmk_combos:
+    # custom
     combo_gaming_toggle:
       align: bottom
       offset: 0.3
       key:
         shifted: $$mdi:space-invaders$$
         hold: "toggle"
+
     combo_swedish_toggle:
       align: bottom
       offset: 0.3
       key:
         shifted: $$mdi:earth$$
         hold: "toggle"
+
     combo_bt_clear:
       align: bottom
       offset: 0.2
       key:
         shifted: $$mdi:bluetooth-connect$$
         hold: "clear"
+
     combo_left_bracket:
       key:
         tap: "["
+
     combo_right_bracket:
       key:
         tap: "]"
+
     combo_swe_ao:
       key:
         tap: "å"
+
     combo_swe_ae:
       key:
         tap: "ä"
+
     combo_swe_o:
       key:
         tap: "ö"
+
     combo_num_1:
       key:
         tap: "1"
+
     combo_num_2:
       key:
         tap: "2"
+
     combo_num_3:
       key:
         tap: "3"
+
     combo_num_4:
       key:
         tap: "4"
+
     combo_num_5:
       key:
         tap: "5"
+
     combo_num_6:
       key:
         tap: "6"
+
     combo_num_7:
       key:
         tap: "7"
+
     combo_num_8:
       key:
         tap: "8"
+
     combo_num_9:
       key:
         tap: "9"
+
     combo_num_0:
       key:
         tap: "0"
+  # /custom
