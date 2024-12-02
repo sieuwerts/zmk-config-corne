@@ -83,9 +83,9 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   swedish:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,12 +174,12 @@ layers:
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [35, 34, 33]
-  k: {h: toggle, s: '$$mdi:space-invaders$$'}
+  k: $$mdi:space-invaders$$
   l: [default, gaming]
   a: bottom
   o: 0.3
 - p: [39, 41]
-  k: {h: clear, s: '$$mdi:bluetooth-connect$$'}
+  k: $$mdi:bluetooth-off$$
   l: [system]
   a: bottom
   o: 0.2
@@ -229,7 +229,7 @@ combos:
   k: $$mdi:keyboard-tab$$
   l: [default, swedish, gaming]
 - p: [36, 41]
-  k: {h: toggle, s: '$$mdi:earth$$'}
+  k: $$mdi:earth$$
   l: [default, swedish]
   a: bottom
   o: 0.3
