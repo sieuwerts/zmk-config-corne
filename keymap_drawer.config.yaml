@@ -1,11 +1,11 @@
 ---
 # mdi glyphs:
 # https://github.com/Templarian/MaterialDesign-SVG
-# https://pictogrammers.com/library/mdi/
+# https://pictogrammers.com/library/mdi
 draw_config:
   key_h: 60.0
-  combo_w: 25.0
-  combo_h: 25.0
+  combo_w: 22.0
+  combo_h: 22.0
   key_rx: 4.0
   key_ry: 4.0
   inner_pad_w: 1.0
@@ -116,21 +116,21 @@ draw_config:
     .shifted {
         dominant-baseline: hanging;
         fill: rgb(96, 125, 139);
-        translate: -18px 2px;
+        translate: -20px 2px;
     }
 
     .shifted.glyph {
-        translate: -18px 0px;
+        translate: -20px 0px;
     }
 
     .hold {
         dominant-baseline: ideographic;
         fill: rgb(96, 125, 139);
-        translate: -18px 4px;
+        translate: -20px 4px;
     }
 
     .hold.glyph {
-        translate: -18px 2px;
+        translate: -20px 2px;
     }
 
   shrink_wide_legends: 5
@@ -155,25 +155,20 @@ parse_config:
 
     # Bluetooth
     "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 1
+      shifted: 1
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 2
+      shifted: 2
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_SEL 2":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 3
+      shifted: 3
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_SEL 3":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 4
+      shifted: 4
+      tap: $$mdi:bluetooth-connect$$
     "&bt BT_SEL 4":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 5
+      shifted: 5
+      tap: $$mdi:bluetooth-connect$$
 
     # custom
     # lt systems layer
@@ -407,22 +402,19 @@ parse_config:
       align: bottom
       offset: 0.3
       key:
-        shifted: $$mdi:space-invaders$$
-        hold: "toggle"
+        tap: $$mdi:space-invaders$$
 
     combo_swedish_toggle:
       align: bottom
       offset: 0.3
       key:
-        shifted: $$mdi:earth$$
-        hold: "toggle"
+        tap: $$mdi:earth$$
 
     combo_bt_clear:
       align: bottom
       offset: 0.2
       key:
-        shifted: $$mdi:bluetooth-connect$$
-        hold: "clear"
+        tap: $$mdi:bluetooth-off$$
 
     combo_left_bracket:
       key:
