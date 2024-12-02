@@ -112,9 +112,25 @@ draw_config:
         opacity: 0.75;
     }
 
-    /* align hold glyphs to the left to avoid collision with vertical combos, custom */
+    /* left-align hold and shift glyphs to the left, custom */
+    .shifted {
+        dominant-baseline: hanging;
+        fill: rgb(96, 125, 139);
+        translate: -18px 2px;
+    }
+
+    .shifted.glyph {
+        translate: -18px 0px;
+    }
+
+    .hold {
+        dominant-baseline: ideographic;
+        fill: rgb(96, 125, 139);
+        translate: -18px 4px;
+    }
+
     .hold.glyph {
-        translate: -26px 2px;
+        translate: -18px 2px;
     }
 
   shrink_wide_legends: 5
