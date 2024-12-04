@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - $$mdi:earth$$
+  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:menu-left$$'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - $$mdi:keyboard-space$$
-  - system_right
+  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:menu-right$$'}
   system_right:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -85,7 +85,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   system_left:
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
