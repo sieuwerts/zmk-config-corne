@@ -179,12 +179,12 @@ parse_config:
     # mo system right
     "&mo 1":
       tap: $$mdi:arrow-down-bold-box$$
-      hold: $$mdi:menu-right$$
+      hold: $$mdi:arrow-right-bold-box$$
 
     # mo system left
     "&mo 2":
       tap: $$mdi:arrow-down-bold-box$$
-      hold: $$mdi:menu-left$$
+      hold: $$mdi:arrow-left-bold-box$$
     # /custom
 
     # Reset
