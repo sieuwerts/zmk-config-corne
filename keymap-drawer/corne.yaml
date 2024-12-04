@@ -37,13 +37,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - default
+  - $$mdi:earth$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
-  - default
-  system:
+  - $$mdi:keyboard-space$$
+  - system_right
+  system_right:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
@@ -84,8 +84,51 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {type: held}
+  system_left:
+  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '7'
+  - '8'
+  - '9'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '=', s: +}
+  - {t: /, s: '?'}
+  - {t: ., s: '>'}
+  - {t: ',', s: <}
+  - '*'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '1'
+  - '2'
+  - '3'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
   gaming:
   - $$mdi:keyboard-esc$$
   - Q
@@ -135,11 +178,9 @@ combos:
   l: [default, gaming]
   a: bottom
   o: 0.3
-- p: [39, 41]
+- p: [39, 40]
   k: $$mdi:bluetooth-off$$
-  l: [system]
-  a: bottom
-  o: 0.2
+  l: [system_right]
 - p: [1, 2]
   k: '!'
   l: [default]
@@ -224,3 +265,6 @@ combos:
 - p: [10, 22]
   k: '0'
   l: [default, gaming]
+- p: [37, 38]
+  k: $$mdi:bluetooth-off$$
+  l: [system_left]
