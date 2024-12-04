@@ -172,12 +172,19 @@ parse_config:
 
     # custom
     # lt systems layer
-    "&lt 1 SPACE":
-      tap: $$mdi:keyboard-space$$
-      hold: $$mdi:arrow-down-bold-box$$
-    # mo swe layer
+    # "&lt 1 SPACE":
+    #   tap: $$mdi:keyboard-space$$
+    #   hold: $$mdi:arrow-down-bold-box$$
+
+    # mo system right
+    "&mo 1":
+      tap: $$mdi:arrow-down-bold-box$$
+      hold: $$mdi:menu-right$$
+
+    # mo system left
     "&mo 2":
-      tap: $$mdi:earth$$
+      tap: $$mdi:arrow-down-bold-box$$
+      hold: $$mdi:menu-left$$
     # /custom
 
     # Reset
@@ -404,17 +411,11 @@ parse_config:
       key:
         tap: $$mdi:space-invaders$$
 
-    combo_swedish_toggle:
-      align: bottom
-      offset: 0.3
-      key:
-        tap: $$mdi:earth$$
-
-    combo_bt_clear:
-      align: bottom
-      offset: 0.2
-      key:
-        tap: $$mdi:bluetooth-off$$
+    # combo_swedish_toggle:
+    #   align: bottom
+    #   offset: 0.3
+    #   key:
+    #     tap: $$mdi:earth$$
 
     combo_left_bracket:
       key:
