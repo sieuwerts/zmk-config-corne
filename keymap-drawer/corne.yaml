@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:menu-left$$'}
+  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:arrow-left-bold-box$$'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:menu-right$$'}
+  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:arrow-right-bold-box$$'}
   system_right:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
