@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - $$mdi:earth$$
+  - default
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
-  - $$mdi:earth$$
+  - default
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -86,49 +86,6 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  swedish:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: å, h: '-'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ö, h: ;}
-  - {t: ä, h: ''''}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   gaming:
   - $$mdi:keyboard-esc$$
   - Q
@@ -185,54 +142,49 @@ combos:
   o: 0.2
 - p: [1, 2]
   k: '!'
-  l: [default, swedish]
+  l: [default]
 - p: [2, 3]
   k: '@'
-  l: [default, swedish]
+  l: [default]
 - p: [3, 4]
   k: '#'
-  l: [default, swedish]
+  l: [default]
 - p: [5, 4]
   k: $
-  l: [default, swedish]
+  l: [default]
 - p: [13, 14]
   k: '%'
-  l: [default, swedish]
+  l: [default]
 - p: [14, 15]
   k: ^
-  l: [default, swedish]
+  l: [default]
 - p: [15, 16]
   k: '&'
-  l: [default, swedish]
+  l: [default]
 - p: [17, 16]
   k: '*'
-  l: [default, swedish]
+  l: [default]
 - p: [7, 8]
   k: (
-  l: [default, swedish]
+  l: [default]
 - p: [8, 9]
   k: )
-  l: [default, swedish]
+  l: [default]
 - p: [19, 20]
   k: '{'
-  l: [default, swedish]
+  l: [default]
 - p: [20, 21]
   k: '}'
-  l: [default, swedish]
+  l: [default]
 - p: [31, 32]
   k: '['
-  l: [default, swedish]
+  l: [default]
 - p: [32, 33]
   k: ']'
-  l: [default, swedish]
+  l: [default]
 - p: [0, 12]
   k: $$mdi:keyboard-tab$$
-  l: [default, swedish, gaming]
-- p: [36, 41]
-  k: $$mdi:earth$$
-  l: [default, swedish]
-  a: bottom
-  o: 0.3
+  l: [default, gaming]
 - p: [23, 11]
   k: å
   l: [default]
@@ -244,31 +196,31 @@ combos:
   l: [default]
 - p: [1, 13]
   k: '1'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [2, 14]
   k: '2'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [3, 15]
   k: '3'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [16, 4]
   k: '4'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [5, 17]
   k: '5'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [6, 18]
   k: '6'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [7, 19]
   k: '7'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [8, 20]
   k: '8'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [21, 9]
   k: '9'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
 - p: [10, 22]
   k: '0'
-  l: [default, gaming, swedish]
+  l: [default, gaming]
