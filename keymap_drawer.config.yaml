@@ -133,6 +133,11 @@ draw_config:
         translate: -20px 2px;
     }
 
+    /* make lt 1 key red */
+    .keypos-41 {
+        --color--key--bg: #fdd;
+    }
+
   shrink_wide_legends: 5
   glyph_tap_size: 16
   glyph_hold_size: 12
@@ -172,19 +177,9 @@ parse_config:
 
     # custom
     # lt systems layer
-    # "&lt 1 SPACE":
-    #   tap: $$mdi:keyboard-space$$
-    #   hold: $$mdi:arrow-down-bold-box$$
-
-    # mo system right
-    "&mo 1":
-      tap: $$mdi:arrow-down-bold-box$$
-      hold: $$mdi:arrow-right-bold-box$$
-
-    # mo system left
-    "&mo 2":
-      tap: $$mdi:arrow-down-bold-box$$
-      hold: $$mdi:arrow-left-bold-box$$
+    "&lt 1 SPACE":
+      tap: $$mdi:keyboard-space$$
+      hold: $$mdi:arrow-down-bold-box$$
     # /custom
 
     # Reset
@@ -403,6 +398,12 @@ parse_config:
     C_BRI_UP: $$mdi:brightness-5$$
     C_BRI_DN: $$mdi:brightness-7$$
 
+    # custom
+    PAGE_DOWN: $$mdi:chevron-double-down$$
+    PAGE_UP: $$mdi:chevron-double-up$$
+    HOME: $$mdi:chevron-double-left$$
+    END: $$mdi:chevron-double-right$$
+
   zmk_combos:
     # custom
     combo_gaming_toggle:
@@ -411,11 +412,11 @@ parse_config:
       key:
         tap: $$mdi:space-invaders$$
 
-    # combo_swedish_toggle:
-    #   align: bottom
-    #   offset: 0.3
-    #   key:
-    #     tap: $$mdi:earth$$
+    combo_bt_clear:
+      align: bottom
+      offset: 0.2
+      key:
+        tap: $$mdi:bluetooth-off$$
 
     combo_left_bracket:
       key:
@@ -476,4 +477,11 @@ parse_config:
     combo_num_0:
       key:
         tap: "0"
+
+    # combo_swedish_toggle:
+    #   align: bottom
+    #   offset: 0.3
+    #   key:
+    #     tap: $$mdi:earth$$
+
   # /custom
