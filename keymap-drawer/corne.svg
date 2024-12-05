@@ -199,11 +199,6 @@ path.combo {
 .hold.glyph {
     translate: -20px 2px;
 }
-
-/* make lt 1 key red */
-.keypos-41 {
-    --color--key--bg: #fdd;
-}
 </style>
 <g transform="translate(0, 0)" class="layer-default">
 <text x="0" y="7" class="label" id="default">default</text>
