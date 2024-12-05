@@ -133,11 +133,6 @@ draw_config:
         translate: -20px 2px;
     }
 
-    /* make lt 1 key red */
-    .keypos-41 {
-        --color--key--bg: #fdd;
-    }
-
   shrink_wide_legends: 5
   glyph_tap_size: 16
   glyph_hold_size: 12
