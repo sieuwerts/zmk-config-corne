@@ -19,7 +19,7 @@
             require-prior-idle-ms = <150>;
         };
 
-        combo_bt_clear_right {
+        combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <39 41>;
             layers = <1>;
@@ -304,7 +304,7 @@
 &none  &none   &kp N7  &kp N8        &kp N9        &none         &none         &kp HOME  &kp UP        &kp END     &kp PAGE_UP    &kp MINUS
 &none  &kp N0  &kp N4  &kp N5        &kp N6        &kp STAR      &none         &kp LEFT  &kp DOWN      &kp RIGHT   &kp PAGE_DOWN  &none
 &none  &none   &kp N1  &kp N2        &kp N3        &kp PLUS      &none         &none     &kp COMMA     &kp PERIOD  &kp SLASH      &kp EQUAL
-                       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &bt BT_SEL 0  &none     &bt BT_SEL 1
+                       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &bt BT_SEL 0  &trans    &bt BT_SEL 1
             >;
         };
 
