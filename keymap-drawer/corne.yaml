@@ -51,10 +51,10 @@ layers:
   - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - HOME
+  - $$mdi:chevron-double-left$$
   - $$mdi:arrow-up-bold$$
-  - END
-  - PAGE UP
+  - $$mdi:chevron-double-right$$
+  - $$mdi:chevron-double-up$$
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '0'
@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PAGE DOWN
+  - $$mdi:chevron-double-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
