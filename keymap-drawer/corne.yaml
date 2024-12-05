@@ -84,7 +84,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   gaming:
   - $$mdi:keyboard-esc$$
@@ -138,6 +138,8 @@ combos:
 - p: [39, 41]
   k: $$mdi:bluetooth-off$$
   l: [system]
+  a: bottom
+  o: 0.2
 - p: [1, 2]
   k: '!'
   l: [default]

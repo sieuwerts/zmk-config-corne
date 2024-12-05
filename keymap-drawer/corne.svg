@@ -1,4 +1,4 @@
-<svg width="900" height="939" viewBox="0 0 900 939" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="953" viewBox="0 0 900 953" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
@@ -71,6 +71,9 @@
 </svg>
 <svg id="mdi:space-invaders">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-space-invaders" viewBox="0 0 24 24"><path d="M7,6H5V4H7V6M17,6H19V4H17V6M23,12V18H21V14H19V18H17V16H7V18H5V14H3V18H1V12H3V10H5V8H7V6H9V8H15V6H17V8H19V10H21V12H23M15,10V12H17V10H15M7,12H9V10H7V12M11,18H7V20H11V18M17,18H13V20H17V18Z" /></svg>
+</svg>
+<svg id="mdi:transfer">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
 </svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
@@ -681,9 +684,9 @@ path.combo {
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:bluetooth-connect"/>
 <text x="0" y="-40" class="key shifted">1</text>
 </g>
-<g transform="translate(594, 228) rotate(-15.0)" class="key none keypos-40">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(594, 228) rotate(-15.0)" class="key trans keypos-40">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-8" y="-8" height="16" width="16.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(660, 219)" class="key keypos-41">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -691,14 +694,14 @@ path.combo {
 <text x="0" y="-25" class="key shifted">2</text>
 </g>
 <g class="combo combopos-0">
-<path d="M592,230 l-48,7" class="combo"/>
-<path d="M592,230 l48,-7" class="combo"/>
-<rect rx="4" ry="4" x="581" y="219" width="22" height="22" class="combo"/>
-<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="584" y="222" height="16" width="16.0" class="combo tap glyph mdi:bluetooth-off"/>
+<path d="M592,298 h-62 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
+<path d="M592,298 h62 a6.0,6.0 0 0 0 6.0,-6.0 v-52" class="combo"/>
+<rect rx="4" ry="4" x="581" y="287" width="22" height="22" class="combo"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="584" y="290" height="16" width="16.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
 </g>
 </g>
-<g transform="translate(0, 617)" class="layer-gaming">
+<g transform="translate(0, 631)" class="layer-gaming">
 <text x="0" y="7" class="label" id="gaming">gaming</text>
 <g transform="translate(0, 14)">
 <g transform="translate(30, 52)" class="key keypos-0">
