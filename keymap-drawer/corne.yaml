@@ -37,13 +37,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:arrow-left-bold-box$$'}
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:arrow-down-bold-box$$', h: '$$mdi:arrow-right-bold-box$$'}
-  system_right:
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
+  - $$mdi:backspace-reverse-outline$$
+  system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
@@ -51,31 +51,31 @@ layers:
   - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - HOME
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
+  - PAGE UP
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '0'
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - PAGE DOWN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
   - '3'
+  - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '*'
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
@@ -84,51 +84,8 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  system_left:
-  - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '7'
-  - '8'
-  - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '=', s: +}
-  - {t: /, s: '?'}
-  - {t: ., s: '>'}
-  - {t: ',', s: <}
-  - '*'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '1'
-  - '2'
-  - '3'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-low$$
   gaming:
   - $$mdi:keyboard-esc$$
   - Q
@@ -178,9 +135,9 @@ combos:
   l: [default, gaming]
   a: bottom
   o: 0.3
-- p: [39, 40]
+- p: [39, 41]
   k: $$mdi:bluetooth-off$$
-  l: [system_right]
+  l: [system]
 - p: [1, 2]
   k: '!'
   l: [default]
@@ -265,6 +222,3 @@ combos:
 - p: [10, 22]
   k: '0'
   l: [default, gaming]
-- p: [37, 38]
-  k: $$mdi:bluetooth-off$$
-  l: [system_left]
