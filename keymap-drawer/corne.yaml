@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - $$mdi:keyboard-tab$$
+  - Meh+ $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
-  - $$mdi:backspace-reverse-outline$$
+  - Meh+ $$mdi:apple-keyboard-command$$
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
