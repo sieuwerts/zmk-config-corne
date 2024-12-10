@@ -190,7 +190,7 @@ path.combo {
 .hold {
     dominant-baseline: ideographic;
     fill: rgb(96, 125, 139);
-    translate: -20px 4px;
+    translate: -15x 2px;
 }
 
 .hold.glyph {
