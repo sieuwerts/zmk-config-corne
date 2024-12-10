@@ -188,17 +188,21 @@ parse_config:
     "&sticky_shift":
       tap: $$mdi:apple-keyboard-caps$$
 
-    "&tap_swe_ao":
-      tap: å
-      hold: "-"
+    # hyper key.
+    "&kp LS(LA(LC(LCMD)))":
+      tap: $$mdi:heart$$
 
-    "&tap_swe_ae":
-      tap: ä
-      hold: "'"
-
-    "&tap_swe_o":
-      tap: ö
-      hold: ";"
+    # "&tap_swe_ao":
+    #   tap: å
+    #   hold: "-"
+    #
+    # "&tap_swe_ae":
+    #   tap: ä
+    #   hold: "'"
+    #
+    # "&tap_swe_o":
+    #   tap: ö
+    #   hold: ";"
     # /custom
 
   # ZMK
