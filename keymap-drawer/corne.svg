@@ -18,9 +18,6 @@
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
 </svg>
-<svg id="mdi:arrow-down-bold-box">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold-box" viewBox="0 0 24 24"><path d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M12,17L17,12H14V8H10V12H7L12,17Z" /></svg>
-</svg>
 <svg id="mdi:arrow-left-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
@@ -367,10 +364,12 @@ path.combo {
 <g transform="translate(240, 219)" class="key keypos-36">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:heart" xlink:href="#mdi:heart" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:heart"/>
+<text x="0" y="25" class="key hold">hyper</text>
 </g>
 <g transform="translate(306, 228) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:apple-keyboard-caps"/>
+<text x="0" y="25" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
 </g>
 <g transform="translate(376, 240) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-29" y="-44" width="58" height="88" class="key"/>
@@ -383,11 +382,13 @@ path.combo {
 <g transform="translate(594, 228) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-space"/>
-<use href="#mdi:arrow-down-bold-box" xlink:href="#mdi:arrow-down-bold-box" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:arrow-down-bold-box"/>
-</g>
+<a href="#system">
+<text x="0" y="25" class="key hold layer-activator"><tspan style="font-size: 83%">system</tspan></text>
+</a></g>
 <g transform="translate(660, 219)" class="key keypos-41">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:heart" xlink:href="#mdi:heart" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:heart"/>
+<text x="0" y="25" class="key hold">hyper</text>
 </g>
 <g class="combo combopos-0">
 <path d="M810,221 h54 a6.0,6.0 0 0 0 6.0,-6.0 v-22" class="combo"/>
@@ -868,8 +869,9 @@ path.combo {
 <g transform="translate(594, 228) rotate(-15.0)" class="key keypos-40">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-space"/>
-<use href="#mdi:arrow-down-bold-box" xlink:href="#mdi:arrow-down-bold-box" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:arrow-down-bold-box"/>
-</g>
+<a href="#system">
+<text x="0" y="25" class="key hold layer-activator"><tspan style="font-size: 83%">system</tspan></text>
+</a></g>
 <g transform="translate(660, 219)" class="key keypos-41">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:apple-keyboard-command"/>

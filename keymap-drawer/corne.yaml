@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - $$mdi:heart$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:heart$$', h: hyper}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: sticky}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
-  - $$mdi:heart$$
+  - {t: '$$mdi:keyboard-space$$', h: system}
+  - {t: '$$mdi:heart$$', h: hyper}
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -127,7 +127,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-down-bold-box$$'}
+  - {t: '$$mdi:keyboard-space$$', h: system}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
 combos:
 - p: [35, 34, 33]
