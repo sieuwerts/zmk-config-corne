@@ -174,7 +174,8 @@ parse_config:
     # lt systems layer
     "&lt 1 SPACE":
       tap: $$mdi:keyboard-space$$
-      hold: $$mdi:arrow-down-bold-box$$
+      hold: "system"
+      # hold: $$mdi:arrow-down-bold-box$$
     # /custom
 
     # Reset
@@ -187,10 +188,12 @@ parse_config:
     # custom
     "&sticky_shift":
       tap: $$mdi:apple-keyboard-caps$$
+      hold: "sticky"
 
     # hyper key.
     "&kp LS(LA(LC(LCMD)))":
       tap: $$mdi:heart$$
+      hold: "hyper"
 
     # "&tap_swe_ao":
     #   tap: å
