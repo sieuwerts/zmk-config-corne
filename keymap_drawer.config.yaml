@@ -123,6 +123,7 @@ draw_config:
         translate: -20px 0px;
     }
 
+    /* styling for hold (text) */
     .hold {
         dominant-baseline: ideographic;
         fill: rgb(96, 125, 139);
