@@ -266,9 +266,9 @@
             hold-trigger-key-positions = <36 37 38 39 40 41 41 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
         };
 
-        sticky_shift: sticky_shift {
+        smart_shift: smart_shift {
             compatible = "zmk,behavior-mod-morph";
-            label = "STICKY_SHIFT";
+            label = "SMART_SHIFT";
             bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
 
             #binding-cells = <0>;
@@ -295,7 +295,7 @@
 &kp ESC        &kp Q        &kp W        &kp E                 &kp R          &kp T        &kp Y          &kp U          &kp I                 &kp O        &kp P                &kp MINUS
 &kp BACKSLASH  &hml LCMD A  &hml LALT S  &hml LCTRL D          &hml LSHIFT F  &kp G        &kp H          &hmr RSHIFT J  &hmr RCTRL K          &hmr RALT L  &hmr RCMD SEMICOLON  &kp SQT
 &kp GRAVE      &kp Z        &kp X        &kp C                 &kp V          &kp B        &kp N          &kp M          &kp COMMA             &kp DOT      &kp FSLH             &kp EQUAL
-                                         &kp LS(LA(LC(LCMD)))  &sticky_shift  &kp ENTER    &kp BACKSPACE  &lt 1 SPACE    &kp LS(LA(LC(LCMD)))
+                                         &kp LS(LA(LC(LCMD)))  &smart_shift  &kp ENTER    &kp BACKSPACE  &lt 1 SPACE    &kp LS(LA(LC(LCMD)))
             >;
         };
 

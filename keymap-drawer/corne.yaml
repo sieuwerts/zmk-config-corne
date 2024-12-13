@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - {t: '$$mdi:heart$$', h: hyper}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: sticky}
+  - {t: '$$mdi:keyboard-caps$$', h: smart}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}

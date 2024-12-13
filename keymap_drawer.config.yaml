@@ -187,9 +187,9 @@ parse_config:
 
     # Behaviours
     # custom
-    "&sticky_shift":
-      tap: $$mdi:apple-keyboard-caps$$
-      hold: "sticky"
+    "&smart_shift":
+      tap: $$mdi:keyboard-caps$$
+      hold: "smart"
 
     # hyper key.
     "&kp LS(LA(LC(LCMD)))":
