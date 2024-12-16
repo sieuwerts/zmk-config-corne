@@ -203,14 +203,15 @@ This is the last layer, and the only one which is meant to be toggled on/off.
 It's meant to be used for playing video games, and has a three key combo to
 toggle to avoid it being activated by accident. Here most of the fancy stuff
 from the default layer is disabled such as home row mods and most combos. The
-only combos that I still use here are tab and the numerals. Shift and control
+only combos that I still use here are for the numerals. Shift and control
 have moved to their "traditional" spots on the left hand and the middle left
 thumb button will become a spacebar. The rest of the thumb keys are designed to
 provide common functionality while playing games. Since the right hand will
 ususally be using a mouse, I really try to get as much in on the left side as
 possible. No key (except for thumb keys on the right) will have separate "hold"
 functionality, since it will interfere with gameplay. The system layer will
-still be accessible from here if needed.
+still be accessible from here if needed. This layer also has a custom combo
+setup for the numerals for easy access with the left hand only.
 
 ### Smart shift
 
