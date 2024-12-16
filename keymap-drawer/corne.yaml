@@ -196,31 +196,61 @@ combos:
   l: [default]
 - p: [1, 13]
   k: '1'
-  l: [default, gaming]
+  l: [default]
 - p: [2, 14]
   k: '2'
-  l: [default, gaming]
+  l: [default]
 - p: [3, 15]
   k: '3'
-  l: [default, gaming]
+  l: [default]
 - p: [16, 4]
   k: '4'
-  l: [default, gaming]
+  l: [default]
 - p: [5, 17]
   k: '5'
-  l: [default, gaming]
+  l: [default]
 - p: [6, 18]
   k: '6'
-  l: [default, gaming]
+  l: [default]
 - p: [7, 19]
   k: '7'
-  l: [default, gaming]
+  l: [default]
 - p: [8, 20]
   k: '8'
-  l: [default, gaming]
+  l: [default]
 - p: [21, 9]
   k: '9'
-  l: [default, gaming]
+  l: [default]
 - p: [10, 22]
   k: '0'
-  l: [default, gaming]
+  l: [default]
+- p: [36, 1]
+  k: '1'
+  l: [gaming]
+- p: [36, 2]
+  k: '2'
+  l: [gaming]
+- p: [36, 3]
+  k: '3'
+  l: [gaming]
+- p: [36, 4]
+  k: '4'
+  l: [gaming]
+- p: [36, 5]
+  k: '5'
+  l: [gaming]
+- p: [36, 13]
+  k: '6'
+  l: [gaming]
+- p: [36, 14]
+  k: '7'
+  l: [gaming]
+- p: [36, 15]
+  k: '8'
+  l: [gaming]
+- p: [36, 16]
+  k: '9'
+  l: [gaming]
+- p: [36, 17]
+  k: '0'
+  l: [gaming]
