@@ -184,7 +184,7 @@ combos:
   l: [default]
 - p: [0, 12]
   k: $$mdi:keyboard-tab$$
-  l: [default, gaming]
+  l: [default]
 - p: [23, 11]
   k: å
   l: [default]
