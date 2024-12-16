@@ -127,7 +127,7 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <0 12>;
-            layers = <0 2>;
+            layers = <0>;
             require-prior-idle-ms = <150>;
         };
 
