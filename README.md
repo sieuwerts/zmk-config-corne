@@ -16,7 +16,7 @@ spending my time in neovim on macos.
 ![keymap](./keymap-drawer/corne.svg)
 
 I use a regular QWERTY layout with some modification of the symbols placement
-on the default layer. The main reason for sticking with a QWERTY layout is
+on the base layer. The main reason for sticking with a QWERTY layout is
 solely for the purpose of not having to configure neovim for another layout. I
 know it's very much possible, but I like the mnemonic default mappings of
 vim/neovim, and I don't want to mess around too much with it.
@@ -86,7 +86,7 @@ the "vertical" home row:
 ```
 
 As for angle brackets, I simply use `shift` and `,`, `.` as one would normally
-do. And the rest of the symbols are located directly on the default layer.
+do. And the rest of the symbols are located directly on the base layer.
 
 #### Numerals
 
@@ -116,7 +116,7 @@ tab
 I still want to be able to write in Swedish, as it is my main language, but I
 don't want to switch to a different layer everytime I want to do so. So I set
 out to be able to seamlessly switch between Swedish and English as if the
-Swedish special keys (`åäö`) were directly on the default layer. With the
+Swedish special keys (`åäö`) were directly on the base layer. With the
 limited amount of keys I eventually ended up using vertical combos for these
 keys where they traditionally reside on a Nordic ISO keyboard which turned out
 really well.
@@ -169,9 +169,9 @@ adding more layers, and try to keep it to a minimum to keep it simple and
 maintain a good flow when typing. I currently have three layers, one default
 layer, a momentary system layer and a gaming toggle layer.
 
-#### Default layer
+#### Base layer
 
-As the name suggests, this is the default layer from which I aim to have most
+As the name suggests, this is the base layer from which I aim to have most
 functionality easily accessible. I use a QWERTY layout for the alphas while
 using vertical combos for numerals (and tab since I want a dedicated esc key)
 and horisontal combos for my most commonly used symbols. From here, I can
@@ -190,11 +190,11 @@ home, end, page up and page down. The left thumb keys are for volume up, down
 and mute while the right thumb keys are for selecting (and clearing) bluetooth
 profiles. On the left hand, I also have a numpad cluster, which is also
 convenient for when I want to write longer sequences of numbers. Having the
-numbers on the default layer as combos are great for when I need quick access
+numbers on the base layer as combos are great for when I need quick access
 to a number or two, but for writing e.g. phone numbers, having a numpad is
 really convenient. So having both are complementing each other well. I also
 have a few common number operators here, the ones that already exist on the
-default layer keep their original place on the right hand, while the rest
+base layer keep their original place on the right hand, while the rest
 reside next to the numpad cluster on the left hand.
 
 #### Gaming layer
@@ -202,7 +202,7 @@ reside next to the numpad cluster on the left hand.
 This is the last layer, and the only one which is meant to be toggled on/off.
 It's meant to be used for playing video games, and has a three key combo to
 toggle to avoid it being activated by accident. Here most of the fancy stuff
-from the default layer is disabled such as home row mods and most combos. The
+from the base layer is disabled such as home row mods and most combos. The
 only combos that I still use here are for the numerals. Shift and control
 have moved to their "traditional" spots on the left hand and the middle left
 thumb button will become a spacebar. The rest of the thumb keys are designed to
