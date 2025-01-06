@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:heart$$', h: hyper}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-caps$$', h: smart}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$

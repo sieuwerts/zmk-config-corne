@@ -367,8 +367,7 @@ path.combo {
 </g>
 <g transform="translate(240, 219)" class="key keypos-36">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:heart" xlink:href="#mdi:heart" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:heart"/>
-<text x="0" y="25" class="key hold">hyper</text>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(306, 228) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
