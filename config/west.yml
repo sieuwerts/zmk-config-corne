@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: m165437  # gem
-      url-base: https://github.com/M165437  # gem
+    # - name: m165437  # gem
+    #   url-base: https://github.com/M165437  # gem
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gem  # gem
-      remote: m165437  # gem
-      revision: main  # gem
+    # - name: nice-view-gem  # gem
+    #   remote: m165437  # gem
+    #   revision: main  # gem
   self:
     path: config
