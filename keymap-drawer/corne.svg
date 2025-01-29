@@ -461,12 +461,12 @@ path.combo {
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="22" y="74" height="16" width="16.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 <g class="combo combopos-16">
-<rect rx="4" ry="4" x="829" y="42" width="22" height="22" class="combo"/>
-<text x="840" y="52" class="combo tap">å</text>
+<rect rx="4" ry="4" x="769" y="34" width="22" height="22" class="combo"/>
+<text x="780" y="45" class="combo tap">å</text>
 </g>
 <g class="combo combopos-17">
-<rect rx="4" ry="4" x="829" y="102" width="22" height="22" class="combo"/>
-<text x="840" y="112" class="combo tap">ä</text>
+<rect rx="4" ry="4" x="769" y="154" width="22" height="22" class="combo"/>
+<text x="780" y="165" class="combo tap">ä</text>
 </g>
 <g class="combo combopos-18">
 <rect rx="4" ry="4" x="769" y="94" width="22" height="22" class="combo"/>
