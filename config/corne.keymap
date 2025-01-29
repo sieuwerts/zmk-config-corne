@@ -133,13 +133,13 @@
 
         combo_swe_ao {
             bindings = <&kp RA(W)>;
-            key-positions = <11 10>;
+            key-positions = <10 9>;
             layers = <0>;
         };
 
         combo_swe_ae {
             bindings = <&kp RA(A)>;
-            key-positions = <23 22>;
+            key-positions = <34 33>;
             layers = <0>;
         };
 
