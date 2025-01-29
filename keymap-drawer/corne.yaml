@@ -185,13 +185,13 @@ combos:
 - p: [0, 12]
   k: $$mdi:keyboard-tab$$
   l: [base]
-- p: [23, 11]
+- p: [11, 10]
   k: å
   l: [base]
-- p: [23, 35]
+- p: [23, 22]
   k: ä
   l: [base]
-- p: [22, 34]
+- p: [22, 21]
   k: ö
   l: [base]
 - p: [1, 13]
