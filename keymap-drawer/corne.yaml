@@ -49,7 +49,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:chevron-double-left$$
   - $$mdi:arrow-up-bold$$
@@ -68,7 +68,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:chevron-double-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
   - '2'
@@ -82,7 +82,7 @@ layers:
   - {t: '=', s: +}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
+  - $$mdi:keyboard-return$$
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
