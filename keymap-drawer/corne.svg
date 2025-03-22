@@ -48,9 +48,6 @@
 <svg id="mdi:chevron-double-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-double-up" viewBox="0 0 24 24"><path d="M7.41,18.41L6,17L12,11L18,17L16.59,18.41L12,13.83L7.41,18.41M7.41,12.41L6,11L12,5L18,11L16.59,12.41L12,7.83L7.41,12.41Z" /></svg>
 </svg>
-<svg id="mdi:heart">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-heart" viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" /></svg>
-</svg>
 <svg id="mdi:keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-caps" viewBox="0 0 24 24"><path d="M6,18H18V16H6M12,8.41L16.59,13L18,11.58L12,5.58L6,11.58L7.41,13L12,8.41Z" /></svg>
 </svg>
@@ -261,22 +258,21 @@ path.combo {
 <g transform="translate(90, 112)" class="key keypos-13">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g transform="translate(150, 98)" class="key keypos-14">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g transform="translate(210, 90)" class="key keypos-15">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(270, 98)" class="key keypos-16">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(330, 105)" class="key keypos-17">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -289,22 +285,21 @@ path.combo {
 <g transform="translate(630, 98)" class="key keypos-19">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(690, 90)" class="key keypos-20">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(750, 98)" class="key keypos-21">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 </g>
 <g transform="translate(810, 112)" class="key keypos-22">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-command"/>
 <text x="0" y="-25" class="key shifted">:</text>
 </g>
 <g transform="translate(870, 112)" class="key keypos-23">
@@ -367,12 +362,12 @@ path.combo {
 </g>
 <g transform="translate(240, 219)" class="key keypos-36">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:keyboard-caps" xlink:href="#mdi:keyboard-caps" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-caps"/>
+<text x="0" y="25" class="key hold">smart</text>
 </g>
 <g transform="translate(306, 228) rotate(15.0)" class="key keypos-37">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:keyboard-caps" xlink:href="#mdi:keyboard-caps" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-caps"/>
-<text x="0" y="25" class="key hold">smart</text>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(376, 240) rotate(30.0)" class="key keypos-38">
 <rect rx="4" ry="4" x="-29" y="-44" width="58" height="88" class="key"/>
@@ -390,8 +385,8 @@ path.combo {
 </a></g>
 <g transform="translate(660, 219)" class="key keypos-41">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:heart" xlink:href="#mdi:heart" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:heart"/>
-<text x="0" y="25" class="key hold">hyper</text>
+<use href="#mdi:keyboard-caps" xlink:href="#mdi:keyboard-caps" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-caps"/>
+<text x="0" y="25" class="key hold">smart</text>
 </g>
 <g class="combo combopos-0">
 <path d="M810,221 h54 a6.0,6.0 0 0 0 6.0,-6.0 v-22" class="combo"/>
