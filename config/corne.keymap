@@ -377,10 +377,10 @@
         mouse {
             display-name = "mouse";
             bindings = <
-&none  &none  &none  &none  &none   &none    &none     &none           &mmv MOVE_UP    &none            &none           &none
-&none  &none  &none  &none  &none   &none    &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &none
-&none  &none  &none  &none  &none   &none    &none     &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &msc SCRL_DOWN  &none
-                     &none  &trans  &none    &mkp MB1  &mkp MB2        &mkp MB3
+&none  &none  &none           &msc SCRL_UP    &none            &none    &none     &none           &mmv MOVE_UP    &none            &none     &none
+&none  &none  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none    &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4  &none
+&none  &none  &none           &none           &none            &none    &none     &none           &none           &none            &mkp MB5  &none
+                              &none           &trans           &none    &mkp MB1  &mkp MB2        &mkp MB3
             >;
         };
 
