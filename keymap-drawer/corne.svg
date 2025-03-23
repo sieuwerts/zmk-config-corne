@@ -712,9 +712,11 @@ path.combo {
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(210, 30)" class="key none keypos-3">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(210, 30)" class="key keypos-3">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 71%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">SCRL_UP</tspan>
+</text>
 </g>
 <g transform="translate(270, 38)" class="key none keypos-4">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
@@ -758,17 +760,23 @@ path.combo {
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(150, 98)" class="key none keypos-14">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(150, 98)" class="key keypos-14">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_LE…</tspan>
+</text>
 </g>
-<g transform="translate(210, 90)" class="key none keypos-15">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(210, 90)" class="key keypos-15">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_DO…</tspan>
+</text>
 </g>
-<g transform="translate(270, 98)" class="key none keypos-16">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(270, 98)" class="key keypos-16">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_RI…</tspan>
+</text>
 </g>
 <g transform="translate(330, 105)" class="key none keypos-17">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
@@ -799,7 +807,7 @@ path.combo {
 <g transform="translate(810, 112)" class="key keypos-22">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 71%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 71%">SCRL_UP</tspan>
+<tspan x="0" dy="-0.5em">&amp;mkp</tspan><tspan x="0" dy="1.0em">MB4</tspan>
 </text>
 </g>
 <g transform="translate(870, 112)" class="key none keypos-23">
@@ -834,26 +842,22 @@ path.combo {
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(630, 158)" class="key keypos-31">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_LE…</tspan>
-</text>
+<g transform="translate(630, 158)" class="key none keypos-31">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(690, 150)" class="key none keypos-32">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(750, 158)" class="key keypos-33">
-<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_RI…</tspan>
-</text>
+<g transform="translate(750, 158)" class="key none keypos-33">
+<rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-8" y="-8" height="16" width="16.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(810, 172)" class="key keypos-34">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">SCRL_DO…</tspan>
+<tspan x="0" dy="-0.5em">&amp;mkp</tspan><tspan x="0" dy="1.0em">MB5</tspan>
 </text>
 </g>
 <g transform="translate(870, 172)" class="key none keypos-35">
