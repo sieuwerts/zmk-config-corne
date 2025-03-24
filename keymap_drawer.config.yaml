@@ -185,13 +185,40 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    # mouse emulation.
+    "&mmv MOVE_LEFT": $$mdi:mouse-move-left$$
+    "&mmv MOVE_RIGHT": $$mdi:mouse-move-right$$
+    "&mmv MOVE_DOWN": $$mdi:mouse-move-down$$
+    "&mmv MOVE_UP": $$mdi:mouse-move-up$$
+    "&mkp MB1": $$mdi:mouse-left-click$$
+    "&mkp MB2": $$mdi:mouse-right-click$$
+    "&mkp MB3": $$mdi:mouse-scroll-wheel$$
+    "&mkp MB4":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:skip-backward$$
+    "&mkp MB5":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:skip-forward$$
+    "&msc SCRL_LEFT":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:menu-left$$
+    "&msc SCRL_RIGHT":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:menu-right$$
+    "&msc SCRL_DOWN":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:menu-down$$
+    "&msc SCRL_UP":
+      tap: $$mdi:mouse-scroll-wheel$$
+      hold: $$mdi:menu-up$$
+
     # Behaviours
     # custom
     "&smart_shift":
       tap: $$mdi:keyboard-caps$$
       hold: "smart"
 
-    # hyper key.
+    # hyper key. not used atm.
     "&kp LS(LA(LC(LCMD)))":
       tap: $$mdi:heart$$
       hold: "hyper"
@@ -394,33 +421,6 @@ parse_config:
     PAGE_UP: $$mdi:chevron-double-up$$
     HOME: $$mdi:chevron-double-left$$
     END: $$mdi:chevron-double-right$$
-
-    # mouse emulation
-    MOVE_LEFT: $$mdi:mouse-move-left$$
-    MOVE_RIGHT: $$mdi:mouse-move-right$$
-    MOVE_DOWN: $$mdi:mouse-move-down$$
-    MOVE_UP: $$mdi:mouse-move-up$$
-    MB1: $$mdi:mouse-left-click$$
-    MB2: $$mdi:mouse-right-click$$
-    MB3: $$mdi:mouse-scroll-wheel$$
-    MB4:
-      t: $$mdi:mouse$$
-      h: $$mdi:skip-backward$$
-    MB5:
-      t: $$mdi:mouse$$
-      h: $$mdi:skip-forward$$
-    SCRL_LEFT:
-      t: $$mdi:mouse-scroll-wheel$$
-      h: $$mdi:menu-left$$
-    SCRL_RIGHT:
-      t: $$mdi:mouse-scroll-wheel$$
-      h: $$mdi:menu-right$$
-    SCRL_DOWN:
-      t: $$mdi:mouse-scroll-wheel$$
-      h: $$mdi:menu-down$$
-    SCRL_UP:
-      t: $$mdi:mouse-scroll-wheel$$
-      h: $$mdi:menu-up$$
 
   zmk_combos:
     # custom
