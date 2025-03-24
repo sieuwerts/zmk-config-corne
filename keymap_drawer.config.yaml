@@ -186,10 +186,18 @@ parse_config:
       tap: $$mdi:progress-download$$
 
     # mouse emulation.
-    "&mmv MOVE_LEFT": $$mdi:mouse-move-left$$
-    "&mmv MOVE_RIGHT": $$mdi:mouse-move-right$$
-    "&mmv MOVE_DOWN": $$mdi:mouse-move-down$$
-    "&mmv MOVE_UP": $$mdi:mouse-move-up$$
+    "&mmv MOVE_LEFT":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-left-thin$$
+    "&mmv MOVE_RIGHT":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-right-thin$$
+    "&mmv MOVE_DOWN":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-down-thin$$
+    "&mmv MOVE_UP":
+      tap: $$mdi:mouse$$
+      hold: $$mdi:arrow-up-thin$$
     "&mkp MB1": $$mdi:mouse-left-click$$
     "&mkp MB2": $$mdi:mouse-right-click$$
     "&mkp MB3": $$mdi:mouse-scroll-wheel$$
