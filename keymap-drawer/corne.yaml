@@ -225,9 +225,6 @@ combos:
 - p: [32, 33]
   k: ']'
   l: [base]
-- p: [0, 12]
-  k: $$mdi:keyboard-tab$$
-  l: [base]
 - p: [10, 9]
   k: å
   l: [base]
@@ -282,18 +279,18 @@ combos:
 - p: [36, 5]
   k: '5'
   l: [gaming]
-- p: [36, 13]
+- p: [36, 25]
   k: '6'
   l: [gaming]
-- p: [36, 14]
+- p: [36, 26]
   k: '7'
   l: [gaming]
-- p: [36, 15]
+- p: [36, 27]
   k: '8'
   l: [gaming]
-- p: [36, 16]
+- p: [36, 28]
   k: '9'
   l: [gaming]
-- p: [36, 17]
+- p: [36, 29]
   k: '0'
   l: [gaming]
