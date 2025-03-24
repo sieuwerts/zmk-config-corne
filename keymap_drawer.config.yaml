@@ -195,19 +195,7 @@ parse_config:
     "&kp LS(LA(LC(LCMD)))":
       tap: $$mdi:heart$$
       hold: "hyper"
-
-    # "&tap_swe_ao":
-    #   tap: å
-    #   hold: "-"
-    #
-    # "&tap_swe_ae":
-    #   tap: ä
-    #   hold: "'"
-    #
-    # "&tap_swe_o":
-    #   tap: ö
-    #   hold: ";"
-    # /custom
+  # /custom
 
   # ZMK
   zmk_keycode_map:
@@ -407,6 +395,33 @@ parse_config:
     HOME: $$mdi:chevron-double-left$$
     END: $$mdi:chevron-double-right$$
 
+    # mouse emulation
+    MOVE_LEFT: $$mdi:mouse-move-left$$
+    MOVE_RIGHT: $$mdi:mouse-move-right$$
+    MOVE_DOWN: $$mdi:mouse-move-down$$
+    MOVE_UP: $$mdi:mouse-move-up$$
+    MB1: $$mdi:mouse-left-click$$
+    MB2: $$mdi:mouse-right-click$$
+    MB3: $$mdi:mouse-scroll-wheel$$
+    MB4:
+      t: $$mdi:mouse$$
+      h: $$mdi:skip-backward$$
+    MB5:
+      t: $$mdi:mouse$$
+      h: $$mdi:skip-forward$$
+    SCRL_LEFT:
+      t: $$mdi:mouse-scroll-wheel$$
+      h: $$mdi:menu-left$$
+    SCRL_RIGHT:
+      t: $$mdi:mouse-scroll-wheel$$
+      h: $$mdi:menu-right$$
+    SCRL_DOWN:
+      t: $$mdi:mouse-scroll-wheel$$
+      h: $$mdi:menu-down$$
+    SCRL_UP:
+      t: $$mdi:mouse-scroll-wheel$$
+      h: $$mdi:menu-up$$
+
   zmk_combos:
     # custom
     combo_gaming_toggle:
@@ -480,11 +495,4 @@ parse_config:
     combo_num_0:
       key:
         tap: "0"
-
-    # combo_swedish_toggle:
-    #   align: bottom
-    #   offset: 0.3
-    #   key:
-    #     tap: $$mdi:earth$$
-
-  # /custom
+# /custom
