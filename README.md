@@ -23,7 +23,7 @@ vim/neovim, and I don't want to mess around too much with it.
 
 ### Timer-less home row mods
 
-I have adopted
+I have adopted a slightly modified variant of
 [urob](https://github.com/urob/zmk-config?tab=readme-ov-file#timeless-homerow-mods)s
 configuration for timer-less home row mods, all credit goes to them. See their
 config repo for more information.
@@ -34,7 +34,9 @@ achieved by setting up a `ZMK_HOLD_TAP` behaviour with the `balanced` flavor
 and perhaps the most important feature for reducing misfires
 `require-prior-idle-ms`. It also enforces some delay when used together with a
 key on the same side of the keyboard. This works very well since the home row
-mods are mirrored for each hand. See the configuration for more information.
+mods are mirrored for each hand. One major difference is that I have chosen to
+_not_ include `shift` in the home row mods, the reason for which is explained
+below. See the configuration for more information.
 
 ### Combos vs layers
 
@@ -101,31 +103,31 @@ in their traditional order, from `1` to `0`:
 
 #### Tab
 
-Since I'm an avid neovim user, I cannot live without my dedicated `esc` button
-in it's traditional spot due to muscle memory, I have set up `tab` as a
-vertical combo around where it traditionally resides:
-
-```{r, eval=FALSE}
-tab
-├─[esc]
-└─[\]
-```
+The tab key is located as the middle left thumb key as I want to keep the top
+left key for a dedicated escape key.
 
 #### International keys
 
 I still want to be able to write in Swedish, as it is my main language, but I
 don't want to switch to a different layer everytime I want to do so. So I set
 out to be able to seamlessly switch between Swedish and English as if the
-Swedish special keys (`åäö`) were directly on the base layer. With the
-limited amount of keys I eventually ended up using vertical combos for these
-keys where they traditionally reside on a Nordic ISO keyboard which turned out
-really well.
+Swedish special keys (`åäö`) were directly on the base layer. With the limited
+amount of keys I eventually ended up using horisontal combos on the right half
+for these keys, close to where they traditionally reside on a Nordic ISO
+keyboard which turned out really well. I initially used vertical combos for
+these, but since I'm not a fan of vertical combos in general, this suited
+me a lot better.
 
 ```{r, eval=FALSE}
-     å
-ö    ├─[-] ä
-├─[;]└─[']─┤
-└─[/]  [=]─┘
+   å
+ ┌─┴─┐
+[o] [p]
+   ö
+ ┌─┴─┐
+[l] [;]
+   ä
+ ┌─┴─┐
+[.] [/]
 ```
 
 NB: For this to work, I am using a custom variant of the ANSI QWERTY layout
@@ -159,15 +161,16 @@ because it's not something that I want to do accidentally.
 # [M] is already held to get to this layer:
 [L][M][R]
  └──┬──┘
-clear profile
+clear currently selected bluetooth profile
 ```
 
 ### Layers
 
 Although combos are great, layers are still useful. I am very conservative of
 adding more layers, and try to keep it to a minimum to keep it simple and
-maintain a good flow when typing. I currently have three layers, one default
-layer, a momentary system layer and a gaming toggle layer.
+maintain a good flow when typing. I currently have four layers, one default
+layer, a momentary system layer, a momentary mouse emulation layer and a gaming
+toggle layer.
 
 #### Base layer
 
@@ -197,6 +200,23 @@ have a few common number operators here, the ones that already exist on the
 base layer keep their original place on the right hand, while the rest
 reside next to the numpad cluster on the left hand.
 
+#### Mouse emulation layer
+
+This momentary layer is used when the otherwise `tab` button (middle left half
+thumb button) is held down. It activates mouse emulation enabling me to move
+the mouse, scroll and use all 5 default mouse buttons being:
+
+- Left click
+- Right click
+- Middle mouse click
+- Back
+- Forward
+
+Mouse movement is located on the right half on the home row, mirrored on the
+left half, we have the scroll (same four directions). Left, right and middle
+mouse buttons are on the right thumb cluster while back and forward are located
+next to the movement keys.
+
 #### Gaming layer
 
 This is the last layer, and the only one which is meant to be toggled on/off.
@@ -215,9 +235,9 @@ setup for the numerals for easy access with the left hand only.
 
 ### Smart shift
 
-Also here, I have adopted some behaviour from the fantastic configuration of
+Also here, I have adopted some behaviour from
 [urob](https://github.com/urob/zmk-config?tab=readme-ov-file#capsword). The
-middle left thumb key has three different functions:
+outer most thumb keys on each half has three different functions:
 
 - `tap`:
 
@@ -232,20 +252,16 @@ middle left thumb key has three different functions:
   - Invoke ZMKs [caps_word](https://zmk.dev/docs/keymaps/behaviors/caps-word)
     behaviour.
 
-The reason for having a dedicated key for shift instead of just relying on the
-ones from the home row mods is that although it's convenient to use HRMs, shift
-is the one key that's often used while just typing regular text (or when
-_writing_ code). While having the required delay for triggering HRMs (and
+The reason for having a dedicated key for shift on each half instead of just
+having it included in the home row mods is that although it's convenient to use
+HRMs, shift is the one key that's often used while just typing regular text (or
+when _writing_ code). While having the required delay for triggering HRMs (and
 combos, but we'll get to that later on) is a blessing, it does make it hard to
-achieve `shift` functionality while writing fast. So I find that a combination
-of the two complements each other really well.
+achieve `shift` functionality while writing fast.
 
-### Hyper key
-
-I have a dedicated `HYPER` key to use together with
-[Raycast](https://www.raycast.com/) where I have set up shortcuts for
-triggering certain applications or behaviours. e.g. `HYPER` + `B` will
-focus/open my browser or `HYPER` + `T` for my terminal emulator.
+So I find that moving it out of the HRMs works best for me. The reason for
+having one of these on each half is the same as for HRMs, if the next keypress
+is on the right, I want to use the shift on the left half and vice versa.
 
 ## Notes
 
@@ -265,7 +281,7 @@ generated everytime there are changes to the `config/corne.keymap` or
 | Display | nice!view | With headers | 2 pcs | typeractive.xyz |
 | Display cover | Acrylic | Clear | 1 set | typeractive.xyz |
 | Sockets | EZ-Solder | Machine sockets and headers | 2 set | typeractive.xyz |
-| Keycaps | Hypersonic | Blue | 1 set | typeractive.xyz |
-| Switches | Ambient Silent | Twilight | 42 pcs | splitkb.com |
+| Keycaps | lowprokb LDSA | White | 42 pcs, assorted | keeb.supply |
+| Switches | lowprokb Ambient Silent | Twilight | 42 pcs | splitkb.com |
 | Battery | 110mAh Li-Po | 3.7V | 2 pcs | aliexpress.com |
 | Firmware | ZMK | Latest | N/A | N/A |
