@@ -271,7 +271,7 @@ The keymap drawing is automatically generated using
 generated everytime there are changes to the `config/corne.keymap` or
 `keymap_drawer.config.yaml` files and push a new commit.
 
-## Hardware
+## Specs
 
 | **Component** | **Type** | **Model** | **Amount** | **Vendor** |
 |---------------|-------------------|-----------------------------|-----------:|-----------------|
