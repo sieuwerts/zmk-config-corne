@@ -128,13 +128,6 @@
             layers = <0>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 12>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-        };
-
         combo_swe_ao {
             bindings = <&kp RA(W)>;
             key-positions = <10 9>;
@@ -245,31 +238,31 @@
 
         combo_gaming_num_6 {
             bindings = <&kp N6>;
-            key-positions = <36 13>;
+            key-positions = <36 25>;
             layers = <3>;
         };
 
         combo_gaming_num_7 {
             bindings = <&kp N7>;
-            key-positions = <36 14>;
+            key-positions = <36 26>;
             layers = <3>;
         };
 
         combo_gaming_num_8 {
             bindings = <&kp N8>;
-            key-positions = <36 15>;
+            key-positions = <36 27>;
             layers = <3>;
         };
 
         combo_gaming_num_9 {
             bindings = <&kp N9>;
-            key-positions = <36 16>;
+            key-positions = <36 28>;
             layers = <3>;
         };
 
         combo_gaming_num_0 {
             bindings = <&kp N0>;
-            key-positions = <36 17>;
+            key-positions = <36 29>;
             layers = <3>;
         };
     };
