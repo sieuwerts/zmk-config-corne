@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-move-up$$
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-up-thin$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -106,9 +106,9 @@ layers:
   - {t: '$$mdi:mouse-scroll-wheel$$', h: '$$mdi:menu-right$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-move-left$$
-  - $$mdi:mouse-move-down$$
-  - $$mdi:mouse-move-right$$
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-left-thin$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-down-thin$$'}
+  - {t: '$$mdi:mouse$$', h: '$$mdi:arrow-right-thin$$'}
   - {t: '$$mdi:mouse$$', h: '$$mdi:skip-backward$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
