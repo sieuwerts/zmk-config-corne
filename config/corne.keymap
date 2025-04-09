@@ -312,10 +312,10 @@
         base {
             display-name = "base";
             bindings = <
-&kp ESC        &kp Q  &kp W        &kp E         &kp R         &kp T        &kp Y          &kp U         &kp I         &kp O        &kp P          &kp MINUS
-&kp BACKSLASH  &kp A  &hml LCMD S  &hml LALT D   &hml LCTRL F  &kp G        &kp H          &hmr RCTRL J  &hmr RALT K   &hmr RCMD L  &kp SEMICOLON  &kp SQT
-&kp GRAVE      &kp Z  &kp X        &kp C         &kp V         &kp B        &kp N          &kp M         &kp COMMA     &kp DOT      &kp FSLH       &kp EQUAL
-                                   &smart_shift  &lt 2 TAB     &kp ENTER    &kp BACKSPACE  &lt 1 SPACE   &smart_shift
+&kp ESC        &kp Q  &kp W        &kp E         &kp R        &kp T        &kp Y          &kp U        &kp I         &kp O        &kp P          &kp MINUS
+&kp BACKSLASH  &kp A  &hml LCMD S  &hml LCTRL D  &hml LALT F  &kp G        &kp H          &hmr RALT J  &hmr RCTRL K  &hmr RCMD L  &kp SEMICOLON  &kp SQT
+&kp GRAVE      &kp Z  &kp X        &kp C         &kp V        &kp B        &kp N          &kp M        &kp COMMA     &kp DOT      &kp FSLH       &kp EQUAL
+                                   &smart_shift  &lt 2 TAB    &kp ENTER    &kp BACKSPACE  &lt 1 SPACE  &smart_shift
             >;
         };
 
