@@ -42,7 +42,7 @@ layers:
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-caps$$', h: smart}
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-f1$$
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
   - '0'
+  - $$mdi:keyboard-space$$
   mouse:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
