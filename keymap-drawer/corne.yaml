@@ -37,7 +37,7 @@ layers:
   - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - numpad
+  - {t: '$$mdi:numeric$$', h: numpad}
   - {t: '$$mdi:keyboard-tab$$', h: mouse}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
@@ -123,7 +123,7 @@ layers:
   - '3'
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace$$
