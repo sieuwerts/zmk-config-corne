@@ -230,6 +230,12 @@ parse_config:
     "&kp LS(LA(LC(LCMD)))":
       tap: $$mdi:heart$$
       hold: "hyper"
+
+    # Layers
+    # momentary layer numpad.
+    "&mo 2":
+      tap: "$$mdi:numeric$$"
+      hold: "numpad"
   # /custom
 
   # ZMK
