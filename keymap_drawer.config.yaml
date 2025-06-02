@@ -231,6 +231,26 @@ parse_config:
       tap: $$mdi:heart$$
       hold: "hyper"
 
+    # Left Control + Up
+    "&kp LC(UP)":
+      tap: "$$$mdi:arrow-expand-up$"
+      hold: "mission out"
+
+    # Left Control + Down
+    "&kp LC(DOWN)":
+      tap: "$$$mdi:arrow-expand-down$"
+      hold: "mission in"
+
+    # Left Control + Left
+    "&kp LC(LEFT)":
+      tap: "$$$mdi:arrow-expand-left$"
+      hold: "display left"
+
+    # Left Control + Right
+    "&kp LC(RIGHT)":
+      tap: "$$$mdi:arrow-expand-right$"
+      hold: "display right"
+
     # Layers
     # momentary layer numpad.
     "&mo 2":
