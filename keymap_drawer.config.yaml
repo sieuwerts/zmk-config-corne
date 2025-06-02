@@ -233,23 +233,23 @@ parse_config:
 
     # Left Control + Up
     "&kp LC(UP)":
-      tap: "$$$mdi:arrow-expand-up$"
-      hold: "mission out"
+      tap: "$$mdi:arrow-expand-up$$"
+      hold: "out"
 
     # Left Control + Down
     "&kp LC(DOWN)":
-      tap: "$$$mdi:arrow-expand-down$"
-      hold: "mission in"
+      tap: "$$mdi:arrow-expand-down$$"
+      hold: "in"
 
     # Left Control + Left
     "&kp LC(LEFT)":
-      tap: "$$$mdi:arrow-expand-left$"
-      hold: "display left"
+      tap: "$$mdi:arrow-expand-left$$"
+      hold: "left"
 
     # Left Control + Right
     "&kp LC(RIGHT)":
-      tap: "$$$mdi:arrow-expand-right$"
-      hold: "display right"
+      tap: "$$mdi:arrow-expand-right$$"
+      hold: "right"
 
     # Layers
     # momentary layer numpad.
