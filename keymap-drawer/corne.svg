@@ -605,11 +605,17 @@ path.combo {
 </g>
 <g transform="translate(570, 45)" class="key keypos-6">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-up-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
+</text>
+<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">mission…</tspan></text>
 </g>
 <g transform="translate(630, 38)" class="key keypos-7">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-left-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
+</text>
+<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">display…</tspan></text>
 </g>
 <g transform="translate(690, 30)" class="key keypos-8">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -617,7 +623,10 @@ path.combo {
 </g>
 <g transform="translate(750, 38)" class="key keypos-9">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-right-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
+</text>
+<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">display…</tspan></text>
 </g>
 <g transform="translate(810, 52)" class="key none keypos-10">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
@@ -653,7 +662,10 @@ path.combo {
 </g>
 <g transform="translate(570, 105)" class="key keypos-18">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<use href="#mdi:arrow-down-bold" xlink:href="#mdi:arrow-down-bold" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-down-bold"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
+</text>
+<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">mission…</tspan></text>
 </g>
 <g transform="translate(630, 98)" class="key keypos-19">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
