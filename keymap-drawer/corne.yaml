@@ -50,10 +50,10 @@ layers:
   - $$mdi:keyboard-f3$$
   - $$mdi:keyboard-f4$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$$mdi:arrow-expand-up$', h: mission out}
-  - {t: '$$$mdi:arrow-expand-left$', h: display left}
+  - {t: '$$mdi:arrow-expand-up$$', h: out}
+  - {t: '$$mdi:arrow-expand-left$$', h: left}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$$mdi:arrow-expand-right$', h: display right}
+  - {t: '$$mdi:arrow-expand-right$$', h: right}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -62,7 +62,7 @@ layers:
   - $$mdi:keyboard-f7$$
   - $$mdi:keyboard-f8$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$$mdi:arrow-expand-down$', h: mission in}
+  - {t: '$$mdi:arrow-expand-down$$', h: in}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$

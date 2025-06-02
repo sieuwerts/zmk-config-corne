@@ -18,6 +18,18 @@
 <svg id="mdi:arrow-down-thin">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-thin" viewBox="0 0 24 24"><path d="M7.03 13.92H11.03V5L13.04 4.97V13.92H17.03L12.03 18.92Z" /></svg>
 </svg>
+<svg id="mdi:arrow-expand-down">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-expand-down" viewBox="0 0 24 24"><path d="M22,4V2H2V4H11V18.17L5.5,12.67L4.08,14.08L12,22L19.92,14.08L18.5,12.67L13,18.17V4H22Z" /></svg>
+</svg>
+<svg id="mdi:arrow-expand-left">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-expand-left" viewBox="0 0 24 24"><path d="M20,22H22V2H20V11H5.83L11.33,5.5L9.92,4.08L2,12L9.92,19.92L11.33,18.5L5.83,13H20V22Z" /></svg>
+</svg>
+<svg id="mdi:arrow-expand-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-expand-right" viewBox="0 0 24 24"><path d="M4,2H2V22H4V13H18.17L12.67,18.5L14.08,19.92L22,12L14.08,4.08L12.67,5.5L18.17,11H4V2Z" /></svg>
+</svg>
+<svg id="mdi:arrow-expand-up">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-expand-up" viewBox="0 0 24 24"><path d="M2,20V22H22V20H13V5.83L18.5,11.33L19.92,9.92L12,2L4.08,9.92L5.5,11.33L11,5.83V20H2Z" /></svg>
+</svg>
 <svg id="mdi:arrow-left-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-left-bold" viewBox="0 0 24 24"><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg>
 </svg>
@@ -605,17 +617,13 @@ path.combo {
 </g>
 <g transform="translate(570, 45)" class="key keypos-6">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
-</text>
-<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">mission…</tspan></text>
+<use href="#mdi:arrow-expand-up" xlink:href="#mdi:arrow-expand-up" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-expand-up"/>
+<text x="0" y="25" class="key hold">out</text>
 </g>
 <g transform="translate(630, 38)" class="key keypos-7">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
-</text>
-<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">display…</tspan></text>
+<use href="#mdi:arrow-expand-left" xlink:href="#mdi:arrow-expand-left" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-expand-left"/>
+<text x="0" y="25" class="key hold">left</text>
 </g>
 <g transform="translate(690, 30)" class="key keypos-8">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -623,10 +631,8 @@ path.combo {
 </g>
 <g transform="translate(750, 38)" class="key keypos-9">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
-</text>
-<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">display…</tspan></text>
+<use href="#mdi:arrow-expand-right" xlink:href="#mdi:arrow-expand-right" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-expand-right"/>
+<text x="0" y="25" class="key hold">right</text>
 </g>
 <g transform="translate(810, 52)" class="key none keypos-10">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key none"/>
@@ -662,10 +668,8 @@ path.combo {
 </g>
 <g transform="translate(570, 105)" class="key keypos-18">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.0em" style="font-size: 62%">$$$</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">mdi:</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">arrow-e…</tspan>
-</text>
-<text x="0" y="25" class="key hold"><tspan style="font-size: 62%">mission…</tspan></text>
+<use href="#mdi:arrow-expand-down" xlink:href="#mdi:arrow-expand-down" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:arrow-expand-down"/>
+<text x="0" y="25" class="key hold">in</text>
 </g>
 <g transform="translate(630, 98)" class="key keypos-19">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
