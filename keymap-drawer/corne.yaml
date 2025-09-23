@@ -26,23 +26,23 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
-  - Z
-  - {t: X, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Z, h: mouse}
+  - X
   - C
   - V
   - B
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:numeric$$', h: numpad}
-  - {t: '$$mdi:keyboard-tab$$', h: mouse}
+  - LEFT SHIFT
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}
-  - {t: '$$mdi:keyboard-caps$$', h: smart}
+  - RIGHT SHIFT
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-f1$$
@@ -155,7 +155,7 @@ layers:
   - {t: '$$mdi:mouse$$', h: '$$mdi:skip-backward$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -167,7 +167,7 @@ layers:
   - {t: '$$mdi:mouse$$', h: '$$mdi:skip-forward$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
