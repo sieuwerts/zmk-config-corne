@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - LEFT SHIFT
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
   - $$mdi:keyboard-return$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: system}
-  - RIGHT SHIFT
+  - $$mdi:apple-keyboard-shift$$
   system:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-f1$$
