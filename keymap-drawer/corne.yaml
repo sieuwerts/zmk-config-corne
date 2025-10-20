@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
-  - {t: Z, h: mouse}
+  - Z
   - X
   - C
   - V
@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:arrow-expand-left$$', h: left}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:arrow-expand-right$$', h: right}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-f5$$
@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-low$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-f9$$
@@ -78,11 +78,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
   - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - mouse
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
@@ -93,11 +93,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - ':'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -109,7 +109,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ., s: '>'}
+  - ':'
   - {t: ',', s: <}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -123,8 +123,8 @@ layers:
   - '3'
   - {t: /, s: '?'}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace$$
   - '0'
@@ -155,7 +155,7 @@ layers:
   - {t: '$$mdi:mouse$$', h: '$$mdi:skip-backward$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -167,7 +167,7 @@ layers:
   - {t: '$$mdi:mouse$$', h: '$$mdi:skip-forward$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
