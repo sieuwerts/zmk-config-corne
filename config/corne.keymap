@@ -340,7 +340,7 @@
             bindings = <
 &kp ESC        &kp Q        &kp W  &hml LALT E  &kp R         &kp T        &kp Y          &kp U         &hmr RALT I  &kp O    &kp P                &kp MINUS
 &kp BACKSLASH  &hml LCMD A  &kp S  &kp D        &hml LCTRL F  &kp G        &kp H          &hmr RCTRL J  &kp K        &kp L    &hmr RCMD SEMICOLON  &kp SQT
-&kp GRAVE      &lt 3 Z      &kp X  &kp C        &kp V         &kp B        &kp N          &kp M         &kp COMMA    &kp DOT  &kp FSLH             &kp EQUAL
+&kp GRAVE      &kp Z        &kp X  &kp C        &kp V         &kp B        &kp N          &kp M         &kp COMMA    &kp DOT  &kp FSLH             &kp EQUAL
                                    &kp LSHIFT   &lt 2 TAB     &kp ENTER    &kp BACKSPACE  &lt 1 SPACE   &kp RSHIFT
             >;
         };
@@ -348,20 +348,20 @@
         system {
             display-name = "system";
             bindings = <
-&none  &kp F1  &kp F2   &kp F3        &kp F4        &none         &kp LC(UP)    &kp LC(LEFT)  &kp UP        &kp LC(RIGHT)  &none  &none
-&none  &kp F5  &kp F6   &kp F7        &kp F8        &none         &kp LC(DOWN)  &kp LEFT      &kp DOWN      &kp RIGHT      &none  &none
-&none  &kp F9  &kp F10  &kp F11       &kp F12       &none         &none         &none         &none         &none          &none  &none
-                        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &bt BT_SEL 0  &trans        &bt BT_SEL 1
+&none  &kp F1  &kp F2   &kp F3   &kp F4   &none    &kp LC(UP)    &kp LC(LEFT)  &kp UP        &kp LC(RIGHT)  &kp C_VOL_UP  &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8   &none    &kp LC(DOWN)  &kp LEFT      &kp DOWN      &kp RIGHT      &kp C_VOL_DN  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none    &none         &none         &none         &none          &kp C_MUTE    &none
+                        &none    &mo 3    &none    &bt BT_SEL 0  &trans        &bt BT_SEL 1
             >;
         };
 
         numpad {
             display-name = "numpad";
             bindings = <
-&none  &none  &none  &none   &none  &none    &kp COLON      &kp N7  &kp N8     &kp N9  &none      &kp MINUS
-&none  &none  &none  &none   &none  &none    &kp STAR       &kp N4  &kp N5     &kp N6  &kp DOT    &kp COMMA
-&none  &none  &none  &none   &none  &none    &kp PLUS       &kp N1  &kp N2     &kp N3  &kp SLASH  &kp EQUAL
-                     &trans  &none  &none    &kp BACKSPACE  &kp N0  &kp SPACE
+&none  &none  &none  &none  &none   &none    &none          &kp N7  &kp N8     &kp N9  &kp DOT    &kp MINUS
+&none  &none  &none  &none  &none   &none    &kp STAR       &kp N4  &kp N5     &kp N6  &kp COLON  &kp COMMA
+&none  &none  &none  &none  &none   &none    &kp PLUS       &kp N1  &kp N2     &kp N3  &kp SLASH  &kp EQUAL
+                     &none  &trans  &none    &kp BACKSPACE  &kp N0  &kp SPACE
             >;
         };
 
