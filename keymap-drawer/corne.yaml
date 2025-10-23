@@ -16,12 +16,12 @@ layers:
   - {t: \, s: '|'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - S
-  - D
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - K
+  - J
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
