@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   base:
-  - A
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - {t: E, h: '$$mdi:apple-keyboard-option$$'}

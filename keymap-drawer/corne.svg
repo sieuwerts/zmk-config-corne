@@ -278,7 +278,7 @@ path.combo {
 <g transform="translate(0, 14)">
 <g transform="translate(30, 52)" class="key keypos-0">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
-<text x="0" y="0" class="key tap">A</text>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-8" y="-8" height="16" width="16.0" class="key tap glyph mdi:keyboard-esc"/>
 </g>
 <g transform="translate(90, 52)" class="key keypos-1">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
