@@ -21,9 +21,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view  # default.
     # shield: corne_left nice_view_adapter nice_view_gem # gem.
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_right nice_view_adapter nice_view  # default.
     # shield: corne_right nice_view_adapter nice_view_gem # gem.
