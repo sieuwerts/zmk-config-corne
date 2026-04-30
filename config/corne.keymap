@@ -270,7 +270,6 @@
     behaviors {
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -284,7 +283,6 @@
 
         hmr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -298,7 +296,6 @@
 
         smart_shift: smart_shift {
             compatible = "zmk,behavior-mod-morph";
-            label = "SMART_SHIFT";
             bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
 
             #binding-cells = <0>;
@@ -307,7 +304,6 @@
 
         hmli: homerow_mods_left_instant {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT_INSTANT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -320,7 +316,6 @@
 
         hmri: homerow_mods_right_instant {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT_INSTANT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
