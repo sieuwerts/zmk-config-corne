@@ -4,25 +4,25 @@ layers:
   - $$mdi:keyboard-esc$$
   - Q
   - W
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - E
   - R
   - T
   - Y
   - U
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - I
   - O
   - P
   - {t: '-', s: _}
   - {t: \, s: '|'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - F
   - G
   - H
   - J
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - L
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}

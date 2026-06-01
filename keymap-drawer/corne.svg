@@ -291,7 +291,6 @@ path.combo {
 <g transform="translate(210, 30)" class="key keypos-3">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(270, 38)" class="key keypos-4">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -312,7 +311,6 @@ path.combo {
 <g transform="translate(690, 30)" class="key keypos-8">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">I</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(750, 38)" class="key keypos-9">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -340,6 +338,7 @@ path.combo {
 <g transform="translate(150, 98)" class="key keypos-14">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(210, 90)" class="key keypos-15">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
@@ -370,6 +369,7 @@ path.combo {
 <g transform="translate(750, 98)" class="key keypos-21">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="13" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(810, 112)" class="key keypos-22">
 <rect rx="4" ry="4" x="-29" y="-29" width="58" height="58" class="key"/>
