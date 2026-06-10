@@ -9,7 +9,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      # PIN: last release before Zephyr 4.1 (nice!view display works here).
+      # To resume the 4.1 upgrade, set revision back to `main` and revert the
+      # pins in build.yaml + .github/workflows/build.yml.
+      revision: v0.3.0
       import: app/west.yml
     # - name: nice-view-gem  # gem
     #   remote: m165437  # gem

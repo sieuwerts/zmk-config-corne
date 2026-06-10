@@ -17,4 +17,7 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # PIN: workflow pinned to v0.3.0 so the build toolchain/SDK matches the
+    # pre-Zephyr-4.1 zmk revision pinned in config/west.yml. For the 4.1
+    # upgrade, change this ref back to @main.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
