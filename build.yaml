@@ -22,10 +22,14 @@
 ---
 include:
   - board: nice_nano//zmk
-    shield: corne_left nice_view_adapter nice_view  # default.
-    # shield: corne_left nice_view_adapter nice_view_gem # gem.
+    shield: corne_left nice_view_adapter nice_view
+    snippet: studio-rpc-usb-uart  # support zmk studio (only left half).
+    cmake-args: -DCONFIG_ZMK_STUDIO=y  # support zmk studio (only left half).
   - board: nice_nano//zmk
-    shield: corne_right nice_view_adapter nice_view  # default.
-    # shield: corne_right nice_view_adapter nice_view_gem # gem.
-  - board: nice_nano//zmk
-    shield: settings_reset
+    shield: corne_right nice_view_adapter nice_view
+
+    # This builds an artifact to reset base settings, like pairing information
+    # etc. Uncomment to build, then flash with this firmware before the real one
+    # for each board.
+    # - board: nice_nano//zmk
+    #   shield: settings_reset
